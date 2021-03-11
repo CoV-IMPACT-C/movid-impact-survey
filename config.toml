@@ -1,5 +1,5 @@
 baseurl = "https://ocs-coes.netlify.app/"
-title = "Observatorio de Cohesión Social"
+title = "MOVID-IMPACT-C"
 theme = "hugo-universal-theme"
 languageCode = "es-cl"
 # Site language. Available translations in the theme's `/i18n` directory.
@@ -7,7 +7,7 @@ defaultContentLanguage = "es"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "G-5NZ26DZ60M"
+googleAnalytics = ""
 
 [markup]
   [markup.goldmark]
@@ -29,7 +29,7 @@ paginate = 10
 
 [[menu.main]]
     identifier = "app"
-    name = "Visualizador"
+    name = "Descargar"
     url  = "/app/"
     weight = 2
 
@@ -40,53 +40,35 @@ paginate = 10
     weight = 3
 
 [[menu.main]]
-    identifier="blog"
-    name = "Noticias"
-    url  = "/blog/"
-    weight = 4
-
-[[menu.main]]
     identifier = "contact"
     name = "Contacto"
     url  = "/contact/"
-    weight = 5
+    weight = 4
 
 # Top bar social links menu
 
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/ocscoes/"
+    url = "https://github.com/CoV-IMPACT-C/"
     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 2
-    name = "Facebook"
-    url = "http://facebook.com/coes2020"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Twitter"
-    url = "https://twitter.com/CentroCOES"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 4
     name = "Email"
-    url = "mailto:ocs@coes.cl"
+    url = "mailto:encuestacovid@uchile.cl"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
     author = "OCS"
-    defaultKeywords = ["cohesion", "visualizador", "LAPOP"]
+    defaultKeywords = ["covid", "movid", "pandemia", "datos"]
     mainSections = ["blog"]
     defaultDescription = "Sitio desarrollado por valentinaandrade por template devcows usando hugo"
 
     # Social media
-    facebook_site = "coes2020" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-    twitter_site = "CentroCOES" # the Twitter handle of your site (without the '@')
+    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    twitter_site = "" # the Twitter handle of your site (without the '@')
     default_sharing_image = "img/sharing-default.png"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
@@ -115,8 +97,8 @@ paginate = 10
     email = "f/xeqpkdpl"
     contact_form_ajax = false
 
-    about_us = "<p>Observatorio de Cohesión Social, COES</p>"
-    copyright = "Copyright (c) 2015 - 2020, Observatorio de Cohesión Social; todos los derechos reservados."
+    about_us = "<p>Coronavirus Impact Monitor:Policiy, Access, Control and Transectorial Consequences</p>"
+    copyright = "Copyright (c) 2020 - 2021, ANID-COVID 960; todos los derechos reservados."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -124,8 +106,7 @@ paginate = 10
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
     address = """<p class="text-uppercase"><strong>COES</strong>
-        <br>13/25 Diagonal Paraguay 257
-        <br>Torre 26, Oficina 1504
+        <br>Universidad de Chile
         <br>Santiago-RM
         <br>Chile
         <br>
@@ -138,7 +119,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contáctenos en ocs@coes.cl</p>
+    text = """<p class="hidden-sm hidden-xs">Contáctenos en encuestacovid@uchile.cl</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
@@ -151,15 +132,15 @@ paginate = 10
     search = false
 
 [params.carousel]
-    enable = true
+    enable = false
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
 
 [params.test]
     enable = true
-    title = "Observatorio de Cohesión Social"
-    subtitle = "El Observatorio de Cohesión Social es un portal para realizar análisis comparativos de distintos indicadores asociados a cohesión social en América Latina, como confianza interpersonal, valoración de la democracia, participación en protestas, entre otros. Para ello se utiliza la base de la encuesta LAPOP (Latin American Public Opinion Project), olas 2004, 2006, 2008, 2010, 2012, 2014, 2016 y 2018"
+    title = "MOVID-IMPACT-C"
+    subtitle = "MOVID-IMPACT-C es una encuesta representativa a nivel nacional realizada por el equipo CoV-IMPACT-C"
 
 
 [params.features]
@@ -179,10 +160,10 @@ paginate = 10
 [params.see_more]
     enable = true
     icon = "fas fa-chart-line"
-    title = "Indicadores Comparativos de Cohesión Social para América Latina"
+    title = "MOVID-IMPACT-C"
     subtitle = ""
     link_url = "/app/"
-    link_text = "Ir a visualizador"
+    link_text = "Descargar base de datos"
 
 [params.clients]
     enable = true
@@ -193,6 +174,6 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "Noticias"
     subtitle = "En el siguiente apartado se pueden ver las noticias que han aparecido sobre el Observatorio de Cohesión Social"
