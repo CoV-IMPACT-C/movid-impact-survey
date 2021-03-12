@@ -1319,10 +1319,10 @@ fieldset[disabled] .btn-template-primary.active {
 .testimonials .item .testimonial .name-picture {
   float: right;
   width: 80%;
-  text-align: right;
+  text-align: center;
 }
 .testimonials .item .testimonial .name-picture h5 {
-  font-size: 15px;
+  font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
@@ -1333,9 +1333,9 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .testimonials .item .testimonial .name-picture img {
   float: right;
-  width: 60px;
-  border-radius: 30px;
-  margin-left: 10px;
+  width: 70px;
+  border-radius: 0px;
+  margin-left: 0px;
 }
 .team-member {
   text-align: center;

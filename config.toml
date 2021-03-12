@@ -1,4 +1,4 @@
-baseurl = "https://ocs-coes.netlify.app/"
+baseurl = "https://movid-coes.netlify.app/"
 title = "MOVID-IMPACT-C"
 theme = "hugo-universal-theme"
 languageCode = "es-cl"
@@ -154,7 +154,7 @@ paginate = 10
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
-    title = "Equipo"
+    title = "Módulos"
     subtitle = ""
 
 [params.see_more]
