@@ -30,7 +30,7 @@ paginate = 10
 [[menu.main]]
     identifier = "app"
     name = "Descargar"
-    url  = "/app/"
+    url  = "/descargar/"
     weight = 2
 
 [[menu.main]]
@@ -61,7 +61,7 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "OCS"
+    author = "MOVID-19"
     defaultKeywords = ["covid", "movid", "pandemia", "datos"]
     mainSections = ["blog"]
     defaultDescription = "Sitio desarrollado por valentinaandrade por template devcows usando hugo"
@@ -105,7 +105,7 @@ paginate = 10
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p class="text-uppercase"><strong>COES</strong>
+    address = """<p class="text-uppercase"><strong>MOVID</strong>
         <br>Universidad de Chile
         <br>Santiago-RM
         <br>Chile
@@ -162,7 +162,7 @@ paginate = 10
     icon = "fas fa-chart-line"
     title = "MOVID-IMPACT-C"
     subtitle = ""
-    link_url = "/app/"
+    link_url = "/descargar base de datos/"
     link_text = "Descargar base de datos"
 
 [params.clients]

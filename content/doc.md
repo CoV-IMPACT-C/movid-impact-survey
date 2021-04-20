@@ -6,18 +6,38 @@ keywords:
 - lapop
 - latinoamerica
 - visualizador
-title: Documentación
 ---
 
-# Título 1
+<br><br><br>
 
-## Subtítulo 1
+# Documentos
 
-## Subtítulo 2
+<div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box-simple">
+                <a href="../input/docs/Cuestionario_MOVID-IMPACT.pdf">
+                      <div class="icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </a>
+                        <h3>Cuestionario</h3>
+                        <p></p>
+                    </div>
+                </div>
+        <div class="col-md-4">
+                    <div class="box-simple">
+                        <a href="../input/docs/Informe_Metodologico_MOVID-IMPACT">
+                            <div class="icon">
+                                <i class="fas fa-file"></i>
+                            </div>
+                        </a>
+                        <h3>Formato CSV</h3>
+                        <p></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
 
-# Título
 
-
----
-
-> Aquí escribiremos la documentación
