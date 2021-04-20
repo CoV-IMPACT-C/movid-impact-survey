@@ -162,7 +162,7 @@ paginate = 10
     icon = "fas fa-chart-line"
     title = "MOVID-IMPACT-C"
     subtitle = ""
-    link_url = "/descargar base de datos/"
+    link_url = "/descargar/"
     link_text = "Descargar base de datos"
 
 [params.clients]
