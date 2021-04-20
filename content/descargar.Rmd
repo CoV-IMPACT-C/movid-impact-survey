@@ -15,37 +15,53 @@ output:
     toc_depth: 4
     latex_engine: xelatex
 ---
+<br><br><br>
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, message = F, warning = F, results = 'asis')
-summarytools::st_options(bootstrap.css     = FALSE,       # Already part of the theme so no need for it
-           plain.ascii       = FALSE,       # One of the essential settings
-           style             = "rmarkdown", # Idem.
-           dfSummary.silent  = TRUE,        # Suppresses messages about temporary files
-           footnote          = NA,          # Keeping the results minimalistic
-           subtitle.emphasis = FALSE)       # For the vignette theme, this gives better results.
-#summarytools::st_css()
+## Descargar datos
 
-library(ggplot2); theme_set(theme_classic() + theme(text = element_text(size = 12)))
-library(knitr);  options(knitr.kable.NA = '')
-```
+<br><br><br>
 
-```{r packages, echo = F}
-# 1. Cargar paquetes
-pacman::p_load(tidyverse, kableExtra, DT, shiny)
-# 2. Cargar tablas
-codebook <- rio::import("input/data/MOVID-IMPACT.dta")
+<div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box-simple">
+                <a href="../input/data/MOVID-IMPACT.dta">
+                      <div class="icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                        </a>
+                        <h3>Formato DTA</h3>
+                        <p></p>
+                    </div>
+                </div>
+        <div class="col-md-4">
+                    <div class="box-simple">
+                        <a href="../input/data/MOVID-IMPACT.csv">
+                            <div class="icon">
+                                <i class="fas fa-file-csv"></i>
+                            </div>
+                        </a>
+                        <h3>Formato CSV</h3>
+                        <p></p>
+                    </div>
+                </div>
+        <div class="col-md-4">
+                    <div class="box-simple">
+                        <a href="../input/data/MOVID-IMPACT.RData">
+                            <div class="icon">
+                                <i class="fab fa-r-project"></i>
+                            </div>
+                        </a>
+                        <h3>En formato RData</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-```
+---
 
+## ¿Quieres comentar o tienes alguna duda?
 
-# Descargar MOVID-IMPACT
-
-```{r, echo=FALSE}
-#codebook %>%  knitr::kable(digits = 2, row.names = F,  booktabs = T)  %>% kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = T) %>% collapse_rows(columns = 1:12)
-
-DT::datatable(codebook, rownames = F, editable = 'cell', options = list(language = list(serverSide = TRUE, processing = TRUE, dataType = 'jsonp',
-  url = '//cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json'),
-  pageLength = 5,  filter = "top"))
-```
+Puedes dejar tus comentarios y dudas sobre los datos en  puedes [contactarnos](/contact/)
 

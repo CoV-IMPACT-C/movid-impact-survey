@@ -36,7 +36,7 @@ paginate = 10
 [[menu.main]]
     identifier = "doc"
     name = "Documentación"
-    url  = "/doc2/"
+    url  = "/doc/"
     weight = 3
 
 [[menu.main]]
