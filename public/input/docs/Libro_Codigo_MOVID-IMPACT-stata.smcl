@@ -1,0 +1,2913 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Valentina Andrade\Downloads\log-codebook.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}23 Apr 2021, 15:04:35
+
+{com}. codebook
+
+{txt}{hline}
+{res}id_encuesta{right:Identificador de hogar}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1005{txt},{res}7006{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1,261{col 51}{txt}missing .:  {res}0{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 3771.44
+{txt}{col 15}std. dev:{res}{col 26} 1690.16
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}    1559{col 37}    2333{col 47}    3640{col 57}    5143{col 67}    6245
+
+{txt}{hline}
+{res}orden{right:Orden de personas}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1{txt},{res}14{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}14{col 51}{txt}missing .:  {res}0{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 2.36397
+{txt}{col 15}std. dev:{res}{col 26} 1.49196
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       1{col 37}       1{col 47}       2{col 57}       3{col 67}       4
+
+{txt}{hline}
+{res}region{right:Región}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:region}
+
+{col 18}range:  [{res}1{txt},{res}16{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}16{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{ralign 23: examples:}{col 26}{res}10{col 32}{txt}Los Lagos
+{ralign 23: }{col 26}{res}.{col 32}{txt}
+{ralign 23: }{col 26}{res}.{col 32}{txt}
+{ralign 23: }{col 26}{res}.{col 32}{txt}
+
+{txt}{hline}
+{res}comuna{right:Comuna}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1101{txt},{res}16304{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}232{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 9172.65
+{txt}{col 15}std. dev:{res}{col 26} 3923.57
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}    4102{col 37}    5801{col 47}    9101{col 57}   13114{col 67}   13201
+
+{txt}{hline}
+{res}entrevistado{right:Entrevistado seleccionado}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}     1,261{col 33}1
+{col 21}     2,308{col 33}.
+
+{txt}{hline}
+{res}factor_expansion{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}0{txt},{res}61939.65{txt}]{col 55}units:  {res}.001
+{col 10}{txt}unique values:  {res}479{col 51}{txt}missing .:  {res}0{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26}  3737.1
+{txt}{col 15}std. dev:{res}{col 26} 6886.66
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       0{col 37}       0{col 47}       0{col 57} 5526.12{col 67} 12826.1
+
+{txt}{hline}
+{res}sexo{right:Sexo}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:sexo}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}0{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}     1,649{col 33}       1{col 43}{txt}Hombre
+{col 21}{res}     1,920{col 33}       2{col 43}{txt}Mujer
+
+{txt}{hline}
+{res}edad{right:Edad}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}0{txt},{res}96{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}97{col 51}{txt}missing .:  {res}0{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 38.2348
+{txt}{col 15}std. dev:{res}{col 26} 22.9108
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       8{col 37}      19{col 47}      37{col 57}      56{col 67}      70
+
+{txt}{hline}
+{res}a4{right:¿Qué relación tiene [NOMBRE] con el/la jefe(a) de este hogar}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:a4}
+
+{col 18}range:  [{res}1{txt},{res}12{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}12{col 51}{txt}missing .:  {res}0{txt}/{res}3,569
+
+{txt}{ralign 23: examples:}{col 26}{res}1{col 32}{txt}Jefe(a) de hogar
+{ralign 23: }{col 26}{res}2{col 32}{txt}Cónyuge(a) o pareja
+{ralign 23: }{col 26}{res}3{col 32}{txt}Hijo(a)
+{ralign 23: }{col 26}{res}3{col 32}{txt}Hijo(a)
+
+{txt}{hline}
+{res}a5{right:¿Qué relación tiene [NOMBRE] con usted (entrevistado/a)}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:a5}
+
+{col 18}range:  [{res}1{txt},{res}12{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}12{col 51}{txt}missing .:  {res}0{txt}/{res}3,569
+
+{txt}{ralign 23: examples:}{col 26}{res}1{col 32}{txt}Entrevistado
+{ralign 23: }{col 26}{res}2{col 32}{txt}Cónyuge(a) o pareja
+{ralign 23: }{col 26}{res}3{col 32}{txt}Hijo(a)
+{ralign 23: }{col 26}{res}4{col 32}{txt}Padre o Madre
+
+{txt}{hline}
+{res}a6{right:¿Cuál es el estado civil o conyugal actual de [NOMBRE]}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:a6}
+
+{col 18}range:  [{res}1{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}672{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       942{col 33}       1{col 43}{txt}Casado(a)
+{col 21}{res}       246{col 33}       2{col 43}{txt}Conviviente o pareja
+{col 21}{res}         2{col 33}       3{col 43}{txt}Anulado(a)
+{col 21}{res}       152{col 33}       4{col 43}{txt}Separado(a)
+{col 21}{res}       108{col 33}       5{col 43}{txt}Divorciado(a)
+{col 21}{res}       190{col 33}       6{col 43}{txt}Viudo(a)
+{col 21}{res}     1,257{col 33}       7{col 43}{txt}Soltero(a)
+{col 21}{res}       672{col 33}       .{col 43}
+
+{txt}{hline}
+{res}a7{right:Actualmente, ¿está matricuado o asiste a algún establecimiento educacional?...}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:a7}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       134{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,127{col 33}       2{col 43}{txt}No
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}a8a{right:¿Cuál es el nivel más alto alcanzado o el nivel educacional actual de [NOMBRE]?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:a8a}
+
+{col 18}range:  [{res}1{txt},{res}99{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        13{col 33}       1{col 43}{txt}Nunca asistió
+{col 21}{res}         1{col 33}       3{col 43}{txt}Especial (Diferencial)
+{col 21}{res}       247{col 33}       4{col 43}{txt}Básica
+{col 21}{res}       352{col 33}       5{col 43}{txt}Media Científico-Humanista
+{col 21}{res}       147{col 33}       6{col 43}{txt}Media Técnica-Profesional
+{col 21}{res}       166{col 33}       7{col 43}{txt}Superior Técnica (CFT o I.
+{col 43}Profesional)
+{col 21}{res}       297{col 33}       8{col 43}{txt}Superior Universitaria
+{col 43}(Pregrado)
+{col 21}{res}        26{col 33}       9{col 43}{txt}Postgrado
+{col 21}{res}        12{col 33}      99{col 43}{txt}No sabe/no responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}a8b{right:¿Cuál fue el último curso que aprobó o que cursa actualmente?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1{txt},{res}99{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}10{col 51}{txt}missing .:  {res}2,334{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 11.3069
+{txt}{col 15}std. dev:{res}{col 26} 25.2363
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       2{col 37}       3{col 47}       4{col 57}       5{col 67}       8
+
+{txt}{hline}
+{res}a9{right:¿Cuántos años duró su carrera de pregrado?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}3,543{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}         1{col 33}1
+{col 21}         4{col 33}2
+{col 21}         3{col 33}4
+{col 21}        14{col 33}5
+{col 21}         3{col 33}6
+{col 21}         1{col 33}7
+{col 21}     3,543{col 33}.
+
+{txt}{hline}
+{res}b1{right:¿Usted se considera perteneciente a algún pueblo indígena u originario?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:b1}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       192{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,047{col 33}       2{col 43}{txt}No
+{col 21}{res}        20{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         2{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}b2{right:¿A qué tipo de previsión de salud se encuentra Ud. afiliado?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:b2}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       960{col 33}       1{col 43}{txt}Fonasa
+{col 21}{res}       195{col 33}       2{col 43}{txt}ISAPRE
+{col 21}{res}        11{col 33}       3{col 43}{txt}Fuerzas Armadas y de Orden
+{col 21}{res}        18{col 33}       4{col 43}{txt}Otra
+{col 21}{res}        65{col 33}       5{col 43}{txt}Ninguna
+{col 21}{res}        10{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         2{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}b3{right:¿En qué establecimiento recibió su última atención de salud?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:b3}
+
+{col 18}range:  [{res}1{txt},{res}99{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}17{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{ralign 23: examples:}{col 26}{res}7{col 32}{txt}Hospital público o del SNSS
+{ralign 23: }{col 26}{res}.{col 32}{txt}
+{ralign 23: }{col 26}{res}.{col 32}{txt}
+{ralign 23: }{col 26}{res}.{col 32}{txt}
+
+{txt}{hline}
+{res}c1_1{right:Condiciones de salud: Diabetes}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:c1_1}
+
+{col 18}range:  [{res}1{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,391{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       178{col 33}       1{col 43}{txt}Diabetes
+{col 21}{res}     3,391{col 33}       .{col 43}
+
+{txt}{hline}
+{res}c1_2{right:Condiciones de salud: Hipertensión arterial o presión alta}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:c1_2}
+
+{col 18}range:  [{res}2{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,230{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       339{col 33}       2{col 43}{txt}Hipertensión arterial o presión
+{col 43}alta
+{col 21}{res}     3,230{col 33}       .{col 43}
+
+{txt}{hline}
+{res}c1_3{right:Condiciones de salud: Infarto cardíaco o accidente cerebrovascular}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:c1_3}
+
+{col 18}range:  [{res}3{txt},{res}3{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,521{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        48{col 33}       3{col 43}{txt}Infarto cardíaco o accidente
+{col 43}cerebrovascular
+{col 21}{res}     3,521{col 33}       .{col 43}
+
+{txt}{hline}
+{res}c1_4{right:Condiciones de salud: Enfermedad respiratoria crónica}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:c1_4}
+
+{col 18}range:  [{res}4{txt},{res}4{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,478{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        91{col 33}       4{col 43}{txt}Enfermedad respiratoria crónica:
+{col 43}Asma, enfermedad pulmonar
+{col 43}obstructiva crónica,
+{col 21}{res}     3,478{col 33}       .{col 43}
+
+{txt}{hline}
+{res}c1_5{right:Condiciones de salud: Depresión, trastorno de ansiedad generalizado u otro}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:c1_5}
+
+{col 18}range:  [{res}5{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,408{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       161{col 33}       5{col 43}{txt}Depresión, trastorno de ansiedad
+{col 43}generalizado u otra condición de
+{col 43}salud mental
+{col 21}{res}     3,408{col 33}       .{col 43}
+
+{txt}{hline}
+{res}c1_6{right:Condiciones de salud: Otra condición de salud por la que requiere control médico}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:c1_6}
+
+{col 18}range:  [{res}6{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,282{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       287{col 33}       6{col 43}{txt}Otra condición de salud por la
+{col 43}que requiere control médico de
+{col 43}forma habitual. Es
+{col 21}{res}     3,282{col 33}       .{col 43}
+
+{txt}{hline}
+{res}c1_6_esp{right:Especifique otra condición de salud por la que requiere control médico}
+{txt}{hline}
+
+{col 19}type:  string ({res}strL{txt})
+
+{col 10}unique values:  {res}195{col 51}{txt}missing "":  {res}0{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}""
+
+{txt}{col 16}warning:  variable has leading, embedded, and trailing blanks
+
+{txt}{hline}
+{res}c1_7{right:Condiciones de salud: No le ha sido diagnosticada ninguna otra condición de salu}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:c1_7l}
+
+{col 18}range:  [{res}7{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,002{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       567{col 33}       7{col 43}{txt}No le ha sido diagnosticada
+{col 43}ninguna condición de salud
+{col 21}{res}     3,002{col 33}       .{col 43}
+
+{txt}{hline}
+{res}c1_8{right:Condiciones de salud: No sabe}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:c1_8l}
+
+{col 18}range:  [{res}8{txt},{res}8{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,562{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         7{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}     3,562{col 33}       .{col 43}
+
+{txt}{hline}
+{res}c1_9{right:Condiciones de salud: No responde}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:c1_9l}
+
+{col 18}range:  [{res}9{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,567{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         2{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     3,567{col 33}       .{col 43}
+
+{txt}{hline}
+{res}c2_1{right:Últimas 2 semanas: se ha sentido nervioso, ansioso o con los nervios de punta}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:c2_1}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       573{col 33}       1{col 43}{txt}Nunca
+{col 21}{res}       389{col 33}       2{col 43}{txt}Varios días
+{col 21}{res}        91{col 33}       3{col 43}{txt}Más de la mitad de los días
+{col 21}{res}       200{col 33}       4{col 43}{txt}Casi todos los días
+{col 21}{res}         1{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         7{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}c2_2{right:Últimas 2 semanas: No ha podido dejar de preocuparse o no ha podido controlar su}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:c2_2}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       629{col 33}       1{col 43}{txt}Nunca
+{col 21}{res}       377{col 33}       2{col 43}{txt}Varios días
+{col 21}{res}       101{col 33}       3{col 43}{txt}Más de la mitad de los días
+{col 21}{res}       145{col 33}       4{col 43}{txt}Casi todos los días
+{col 21}{res}         3{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         6{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}c2_3{right:Últimas 2 semanas: Se ha sentido bajoneado, deprimido, irritable o desesperanzad}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:c2_3}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       529{col 33}       1{col 43}{txt}Nunca
+{col 21}{res}       454{col 33}       2{col 43}{txt}Varios días
+{col 21}{res}       104{col 33}       3{col 43}{txt}Más de la mitad de los días
+{col 21}{res}       165{col 33}       4{col 43}{txt}Casi todos los días
+{col 21}{res}         4{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         5{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}c2_4{right:Últimas 2 semanas: Ha sentido poco interés o placer al hacer las cosas}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:c2_4}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       679{col 33}       1{col 43}{txt}Nunca
+{col 21}{res}       358{col 33}       2{col 43}{txt}Varios días
+{col 21}{res}        89{col 33}       3{col 43}{txt}Más de la mitad de los días
+{col 21}{res}       128{col 33}       4{col 43}{txt}Casi todos los días
+{col 21}{res}         4{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         3{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d1{right:Último mes: conversó 15 minutos o más a un metro con alguien con COVID-19}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d1}
+
+{col 18}range:  [{res}1{txt},{res}8{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        66{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,182{col 33}       2{col 43}{txt}No
+{col 21}{res}        13{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d2{right:Último mes: compartió en espacio cerrado por 2+ hrs. con alguien con COVID-19}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d2}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        46{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,184{col 33}       2{col 43}{txt}No
+{col 21}{res}        29{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         2{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d3_1{right:Síntomas último mes: Dificultad para respirar}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d3_1}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        80{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,180{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d3_2{right:Síntomas último mes: Tos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d3_2}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       107{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,152{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       8{col 43}{txt}NS
+{col 21}{res}         1{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d3_3{right:Síntomas último mes: Fiebre (temperatura axilar mayor a 37,8ºC)}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d3_3}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        16{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,243{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       8{col 43}{txt}NS
+{col 21}{res}         1{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d3_4{right:Síntomas último mes: Dolor muscular}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d3_4}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       184{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,076{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d3_5{right:Síntomas último mes: Dolor de garganta}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d3_5}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        86{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,173{col 33}       2{col 43}{txt}No
+{col 21}{res}         2{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d3_6{right:Síntomas último mes: Disminución o pérdida del olfato}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d3_6}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        35{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,225{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d3_7{right:Síntomas último mes: Dolor en el pecho}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d3_7}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        58{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,202{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d3_8{right:Síntomas último mes: Dolor de cabeza}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d3_8}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       312{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       947{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       8{col 43}{txt}NS
+{col 21}{res}         1{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d3_9{right:Síntomas último mes: Diarrea}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d3_9}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        66{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,193{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       8{col 43}{txt}NS
+{col 21}{res}         1{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d3_10{right:Síntomas último mes: Disminución o pérdida del sentido del gusto}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d3_10}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        17{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,242{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       8{col 43}{txt}NS
+{col 21}{res}         1{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d4{right:¿Ha consultado a un profesional de salud respecto a este o estos síntomas?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d4}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}3,103{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       184{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       282{col 33}       2{col 43}{txt}No
+{col 21}{res}     3,103{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d5{right:¿Por qué no ha consultado a un profesional de salud?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d5}
+
+{col 18}range:  [{res}1{txt},{res}99{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}11{col 51}{txt}missing .:  {res}3,287{txt}/{res}3,569
+
+{txt}{ralign 23: examples:}{col 26}{res}.{col 32}{txt}
+{ralign 23: }{col 26}{res}.{col 32}{txt}
+{ralign 23: }{col 26}{res}.{col 32}{txt}
+{ralign 23: }{col 26}{res}.{col 32}{txt}
+
+{txt}{hline}
+{res}d5_esp{right:Especifique la razón por la que no ha consultado a un profesional de salud}
+{txt}{hline}
+
+{col 19}type:  string ({res}strL{txt})
+
+{col 10}unique values:  {res}51{col 51}{txt}missing "":  {res}0{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}""
+
+{txt}{col 16}warning:  variable has leading, embedded, and trailing blanks
+
+{txt}{hline}
+{res}d6{right:¿Ha sido diagnosticado de Coronavirus mediante PCR en algún momento de la pandem}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d6}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        60{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,198{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         2{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d7{right:¿Ha recibido licencia médica por ser caso sospechoso, confirmado o contacto de C}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d7}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        61{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,195{col 33}       2{col 43}{txt}No
+{col 21}{res}         3{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         2{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d8{right:Debido a su diagnóstico de coronavirus, ¿fue Ud. hospitalizado?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d8}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}3,509{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         4{col 33}       1{col 43}{txt}Sí
+{col 21}{res}        56{col 33}       2{col 43}{txt}No
+{col 21}{res}     3,509{col 33}       .{col 43}
+
+{txt}{hline}
+{res}d9{right:Debido a su diagnóstico de coronavirus, ¿tuvo Ud. síntomas que duraron más de un}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:d9}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}3,509{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        14{col 33}       1{col 43}{txt}Sí
+{col 21}{res}        46{col 33}       2{col 43}{txt}No
+{col 21}{res}     3,509{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e1_1{right:Últimos 3 meses ha pospuesto atención: Diabetes}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e1_1}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}3,391{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        64{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       113{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     3,391{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e1_2{right:Últimos 3 meses ha pospuesto atención: Hipertensión arterial o presión alta}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e1_2}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}3,230{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       117{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       221{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     3,230{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e1_3{right:Últimos 3 meses ha pospuesto atención: Infarto cardíaco o accidente cerebrovascu}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e1_3}
+
+{col 18}range:  [{res}1{txt},{res}8{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}3,521{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        18{col 33}       1{col 43}{txt}Sí
+{col 21}{res}        29{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}     3,521{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e1_4{right:Últimos 3 meses ha pospuesto atención: Enfermedad respiratoria crónica}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e1_4}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}3,478{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        27{col 33}       1{col 43}{txt}Sí
+{col 21}{res}        64{col 33}       2{col 43}{txt}No
+{col 21}{res}     3,478{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e1_5{right:Últimos 3 meses ha pospuesto atención: Depresión, trastorno de ansiedad generali}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e1_5}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}3,408{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        52{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       109{col 33}       2{col 43}{txt}No
+{col 21}{res}     3,408{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e1_6{right:Últimos 3 meses ha pospuesto atención: Otra condición de salud}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e1_6}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}3,282{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       111{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       176{col 33}       2{col 43}{txt}No
+{col 21}{res}     3,282{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e2_1{right:Razón por la que pospuso atención de Diabetes}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e2_1}
+
+{col 18}range:  [{res}2{txt},{res}98{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}3,505{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         1{col 33}       2{col 43}{txt}Por el costo económico
+{col 21}{res}         9{col 33}       5{col 43}{txt}Por miedo a contagiarse de
+{col 43}COVID-19
+{col 21}{res}         7{col 33}       6{col 43}{txt}Porque el sistema de salud está
+{col 43}muy lleno
+{col 21}{res}         2{col 33}       8{col 43}{txt}No tuvo con quien dejar a
+{col 43}personas a su cuidado (niños/as,
+{col 43}personas mayores o pe
+{col 21}{res}        38{col 33}       9{col 43}{txt}El consultorio, hospital o
+{col 43}clínica le suspendió la hora y
+{col 43}no le ha reagendado
+{col 21}{res}         6{col 33}      10{col 43}{txt}Otro. Especifique
+{col 21}{res}         1{col 33}      98{col 43}{txt}No sabe
+{col 21}{res}     3,505{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e2_1_esp{right:Otra razón por la que puso atención de Diabetes}
+{txt}{hline}
+
+{col 19}type:  string ({res}strL{txt})
+
+{col 10}unique values:  {res}7{col 51}{txt}missing "":  {res}0{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}     3,563{col 33}""
+{col 21}         1{col 33}"consultorio reagendado hora para este
+{col 33}mes"
+{col 21}         1{col 33}"el consultorio cerro"
+{col 21}         1{col 33}"no estaban atendiendo en consultorio"
+{col 21}         1{col 33}"por pandemis"
+{col 21}         1{col 33}"porque no atienden en el consultorio"
+{col 21}         1{col 33}"porque no estan atendiendo"
+
+{txt}{col 16}warning:  variable has leading, embedded, and trailing blanks
+
+{txt}{hline}
+{res}e2_2{right:Razón por la que pospuso atención de Hipertensión arterial o presión alta}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e2_2}
+
+{col 18}range:  [{res}1{txt},{res}99{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}3,452{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         3{col 33}       1{col 43}{txt}Porque no le pareció importante
+{col 43}controlarse
+{col 21}{res}         1{col 33}       2{col 43}{txt}Por el costo económico
+{col 21}{res}         2{col 33}       4{col 43}{txt}Porque tenía que esperar mucho
+{col 43}tiempo
+{col 21}{res}        27{col 33}       5{col 43}{txt}Por miedo a contagiarse de
+{col 43}COVID-19
+{col 21}{res}         9{col 33}       6{col 43}{txt}Porque el sistema de salud está
+{col 43}muy lleno
+{col 21}{res}        57{col 33}       9{col 43}{txt}El consultorio, hospital o
+{col 43}clínica le suspendió la hora y
+{col 43}no le ha reagendado
+{col 21}{res}        16{col 33}      10{col 43}{txt}Otro. Especifique
+{col 21}{res}         1{col 33}      98{col 43}{txt}No sabe
+{col 21}{res}         1{col 33}      99{col 43}{txt}No responde
+{col 21}{res}     3,452{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e2_2_esp{right:Otra razón por la que puso atención de Hipertensión arterial o presión alta}
+{txt}{hline}
+
+{col 19}type:  string ({res}strL{txt})
+
+{col 10}unique values:  {res}17{col 51}{txt}missing "":  {res}0{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}""
+
+{txt}{col 16}warning:  variable has leading, embedded, and trailing blanks
+
+{txt}{hline}
+{res}e2_3{right:Razón por la que pospuso atención de Infarto cardíaco o accidente cerebrovascula}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e2_3}
+
+{col 18}range:  [{res}1{txt},{res}10{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}3,551{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         1{col 33}       1{col 43}{txt}Porque no le pareció importante
+{col 43}controlarse
+{col 21}{res}         2{col 33}       5{col 43}{txt}Por miedo a contagiarse de
+{col 43}COVID-19
+{col 21}{res}         2{col 33}       6{col 43}{txt}Porque el sistema de salud está
+{col 43}muy lleno
+{col 21}{res}        11{col 33}       9{col 43}{txt}El consultorio, hospital o
+{col 43}clínica le suspendió la hora y
+{col 43}no le ha reagendado
+{col 21}{res}         2{col 33}      10{col 43}{txt}Otro. Especifique
+{col 21}{res}     3,551{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e2_3_esp{right:Otra razón por la que puso atención de Infarto cardíaco o accidente cerebrovascu}
+{txt}{hline}
+
+{col 19}type:  string ({res}strL{txt})
+
+{col 10}unique values:  {res}3{col 51}{txt}missing "":  {res}0{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}     3,567{col 33}""
+{col 21}         1{col 33}"cada tres meses de cl teola"
+{col 21}         1{col 33}"no pude viajar"
+
+{txt}{col 16}warning:  variable has leading, embedded, and trailing blanks
+
+{txt}{hline}
+{res}e2_4{right:Razón por la que pospuso atención de Enfermedad respiratoria crónica}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e2_4}
+
+{col 18}range:  [{res}5{txt},{res}98{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}3,542{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         4{col 33}       5{col 43}{txt}Por miedo a contagiarse de
+{col 43}COVID-19
+{col 21}{res}         1{col 33}       6{col 43}{txt}Porque el sistema de salud está
+{col 43}muy lleno
+{col 21}{res}         1{col 33}       7{col 43}{txt}No contó con trasporte para
+{col 43}trasladarse al lugar de atención
+{col 21}{res}        13{col 33}       9{col 43}{txt}El consultorio, hospital o
+{col 43}clínica le suspendió la hora y
+{col 43}no le ha reagendado
+{col 21}{res}         7{col 33}      10{col 43}{txt}Otro. Especifique
+{col 21}{res}         1{col 33}      98{col 43}{txt}No sabe
+{col 21}{res}     3,542{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e2_4_esp{right:Otra razón por la que puso atención de Enfermedad respiratoria crónica}
+{txt}{hline}
+
+{col 19}type:  string ({res}strL{txt})
+
+{col 10}unique values:  {res}8{col 51}{txt}missing "":  {res}0{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}     3,562{col 33}""
+{col 21}         1{col 33}"estabas muy ocupado con examenes en la
+{col 33}universidad"
+{col 21}         1{col 33}"lo manejo desde su haga"
+{col 21}         1{col 33}"no le llamaron desde el centro medico
+{col 33}fibrosos pulmonar. le dejaron de lado
+{col 33}hospital felix bulnes"
+{col 21}         1{col 33}"pandemia"
+{col 21}         1{col 33}"por falta de tiempo"
+{col 21}         1{col 33}"porque no estaban atendiendo donde
+{col 33}controla su doctora"
+{col 21}         1{col 33}"renovacion de receta"
+
+{txt}{col 16}warning:  variable has leading, embedded, and trailing blanks
+
+{txt}{hline}
+{res}e2_5{right:Razón por la que pospuso atención de Depresión, trastorno de ansiedad generaliza}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e2_5}
+
+{col 18}range:  [{res}1{txt},{res}10{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}3,517{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         2{col 33}       1{col 43}{txt}Porque no le pareció importante
+{col 43}controlarse
+{col 21}{res}         3{col 33}       2{col 43}{txt}Por el costo económico
+{col 21}{res}        12{col 33}       5{col 43}{txt}Por miedo a contagiarse de
+{col 43}COVID-19
+{col 21}{res}         4{col 33}       6{col 43}{txt}Porque el sistema de salud está
+{col 43}muy lleno
+{col 21}{res}         1{col 33}       7{col 43}{txt}No contó con trasporte para
+{col 43}trasladarse al lugar de atención
+{col 21}{res}        18{col 33}       9{col 43}{txt}El consultorio, hospital o
+{col 43}clínica le suspendió la hora y
+{col 43}no le ha reagendado
+{col 21}{res}        12{col 33}      10{col 43}{txt}Otro. Especifique
+{col 21}{res}     3,517{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e2_5_esp{right:Otra razón por la que puso atención de Depresión, trastorno de ansiedad generali}
+{txt}{hline}
+
+{col 19}type:  string ({res}strL{txt})
+
+{col 10}unique values:  {res}13{col 51}{txt}missing "":  {res}0{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}""
+
+{txt}{col 16}warning:  variable has leading, embedded, and trailing blanks
+
+{txt}{hline}
+{res}e2_6{right:Razón por la que pospuso atención de Otra condición de salud}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e2_6}
+
+{col 18}range:  [{res}3{txt},{res}10{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}8{col 51}{txt}missing .:  {res}3,458{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         1{col 33}       3{col 43}{txt}Porque no sabía dónde realizarlo
+{col 21}{res}         1{col 33}       4{col 43}{txt}Porque tenía que esperar mucho
+{col 43}tiempo
+{col 21}{res}        32{col 33}       5{col 43}{txt}Por miedo a contagiarse de
+{col 43}COVID-19
+{col 21}{res}         7{col 33}       6{col 43}{txt}Porque el sistema de salud está
+{col 43}muy lleno
+{col 21}{res}         2{col 33}       7{col 43}{txt}No contó con trasporte para
+{col 43}trasladarse al lugar de atención
+{col 21}{res}         2{col 33}       8{col 43}{txt}No tuvo con quien dejar a
+{col 43}personas a su cuidado (niños/as,
+{col 43}personas mayores o pe
+{col 21}{res}        54{col 33}       9{col 43}{txt}El consultorio, hospital o
+{col 43}clínica le suspendió la hora y
+{col 43}no le ha reagendado
+{col 21}{res}        12{col 33}      10{col 43}{txt}Otro. Especifique
+{col 21}{res}     3,458{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e2_6_esp{right:Otra razón por la que puso atención de Otra condición de salud}
+{txt}{hline}
+
+{col 19}type:  string ({res}strL{txt})
+
+{col 10}unique values:  {res}13{col 51}{txt}missing "":  {res}0{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}""
+
+{txt}{col 16}warning:  variable has leading, embedded, and trailing blanks
+
+{txt}{hline}
+{res}e3{right:Ultimos 3 meses, ¿ha tenido alguna enfermedad/accidente que requiera atención de}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e3}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       243{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,018{col 33}       2{col 43}{txt}No
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e4{right:¿Tuvo alguna consulta o atención médica por esa enfermedad o accidente?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e4}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}3,326{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       211{col 33}       1{col 43}{txt}Sí
+{col 21}{res}        32{col 33}       2{col 43}{txt}No
+{col 21}{res}     3,326{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e5_1{right:Últimos 3 meses ha tenido que posponer: Consulta médica}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e5_1}
+
+{col 18}range:  [{res}1{txt},{res}8{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,519{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       209{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       840{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       8{col 43}{txt}NS
+{col 21}{res}     2,519{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e5_2{right:Últimos 3 meses ha tenido que posponer: Atención dental}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e5_2}
+
+{col 18}range:  [{res}1{txt},{res}8{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,519{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       135{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       914{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       8{col 43}{txt}NS
+{col 21}{res}     2,519{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e5_3{right:Últimos 3 meses ha tenido que posponer: Vacunación}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e5_3}
+
+{col 18}range:  [{res}1{txt},{res}8{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,519{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        15{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,034{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       8{col 43}{txt}NS
+{col 21}{res}     2,519{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e5_4{right:Últimos 3 meses ha tenido que posponer: Toma de exámenes de laboratorio}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e5_4}
+
+{col 18}range:  [{res}1{txt},{res}8{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,519{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       111{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       937{col 33}       2{col 43}{txt}No
+{col 21}{res}         2{col 33}       8{col 43}{txt}NS
+{col 21}{res}     2,519{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e5_5{right:Últimos 3 meses ha tenido que posponer: Exámenes preventivos: papanicolau, mamog}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e5_5}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}2,918{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        68{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       583{col 33}       2{col 43}{txt}No
+{col 21}{res}     2,918{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e5_6{right:Últimos 3 meses ha tenido que posponer: Exámenes preventivos: antígeno prostátic}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e5_6}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}3,111{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        24{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       433{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       9{col 43}{txt}NR
+{col 21}{res}     3,111{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e5_7{right:Últimos 3 meses ha tenido que posponer: Retiro o compra de medicamentos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e5_7}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,519{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        44{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,005{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,519{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e5_8{right:Últimos 3 meses ha tenido que posponer: Cirugías electivos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e5_8}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,519{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        17{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,031{col 33}       2{col 43}{txt}No
+{col 21}{res}         2{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,519{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e5_9{right:Últimos 3 meses ha tenido que posponer: Otras atenciones de salud}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e5_9}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,519{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        12{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,036{col 33}       2{col 43}{txt}No
+{col 21}{res}         2{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,519{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e5_9_esp{right:Especifique otra atención de salud que ha tenido que posponer}
+{txt}{hline}
+
+{col 19}type:  string ({res}strL{txt})
+
+{col 10}unique values:  {res}13{col 51}{txt}missing "":  {res}0{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}""
+
+{txt}{col 16}warning:  variable has leading, embedded, and trailing blanks
+
+{txt}{hline}
+{res}e6{right:¿Por qué pospuso Ud. estas atenciones de salud? Indique la razón principal}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e6}
+
+{col 18}range:  [{res}1{txt},{res}98{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}13{col 51}{txt}missing .:  {res}3,214{txt}/{res}3,569
+
+{txt}{ralign 23: examples:}{col 26}{res}.{col 32}{txt}
+{ralign 23: }{col 26}{res}.{col 32}{txt}
+{ralign 23: }{col 26}{res}.{col 32}{txt}
+{ralign 23: }{col 26}{res}.{col 32}{txt}
+
+{txt}{hline}
+{res}e7{right:¿Qué nota le pondría a su estado de salud actual?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e7}, but {res:5} nonmissing values are not labeled
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        10{col 33}       1{col 43}{txt}1 (Muy mal)
+{col 21}{res}         9{col 33}       2{col 43}
+{col 21}        23{col 33}       3{col 43}
+{col 21}        87{col 33}       4{col 43}
+{col 21}       379{col 33}       5{col 43}
+{col 21}       417{col 33}       6{col 43}
+{col 21}       325{col 33}       7{col 43}{txt}7 (Muy bien)
+{col 21}{res}         8{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         3{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e8{right:En los últimos 3 meses, ¿usted considera que su estado de salud…?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e8}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       135{col 33}       1{col 43}{txt}Ha mejorado
+{col 21}{res}       913{col 33}       2{col 43}{txt}Se ha mantenido igual
+{col 21}{res}       210{col 33}       3{col 43}{txt}Ha empeorado
+{col 21}{res}         2{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         1{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e9{right:En los últimos 3 meses, ¿ha tenido dificultades para acceder a métodos anticonce}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e9}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        28{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       677{col 33}       2{col 43}{txt}No
+{col 21}{res}       526{col 33}       3{col 43}{txt}No utilizó métodos
+{col 43}anticonceptivos
+{col 21}{res}         5{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        25{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}e10{right:¿Cuál ha sido el motivo de esta dificultad?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:e10}
+
+{col 18}range:  [{res}1{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}3,541{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         5{col 33}       1{col 43}{txt}No me han dado hora para acceder
+{col 43}a la receta en mi centro de
+{col 43}salud
+{col 21}{res}         5{col 33}       2{col 43}{txt}No me han entregado los
+{col 43}anticonceptivos en mi centro de
+{col 43}salud
+{col 21}{res}         2{col 33}       3{col 43}{txt}He optado por no salir para
+{col 43}evitar contagios
+{col 21}{res}         8{col 33}       4{col 43}{txt}No he encontrado anticonceptivos
+{col 43}disponibles en la farmacia
+{col 21}{res}         1{col 33}       5{col 43}{txt}No he tenido dinero suficiente
+{col 21}{res}         7{col 33}       6{col 43}{txt}Otra razón
+{col 21}{res}     3,541{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f1{right:Tiempo dedicado a las tareas domésticas en comparación a la situación previa al}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f1}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        97{col 33}       1{col 43}{txt}Ha bajado. ¿Cuántas horas
+{col 43}diarias ha bajado?
+{col 21}{res}       733{col 33}       2{col 43}{txt}Se ha mantenido igual
+{col 21}{res}       409{col 33}       3{col 43}{txt}Ha subido. ¿Cuántas horas
+{col 43}diarias ha subido?
+{col 21}{res}        11{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        11{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f1_horas{right:Horas diarias dedicadas a las tareas domésticas en época de COVID-19}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1{txt},{res}24{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}15{col 51}{txt}missing .:  {res}3,063{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 3.43083
+{txt}{col 15}std. dev:{res}{col 26} 2.74676
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       1{col 37}       2{col 47}       3{col 57}       4{col 67}       5
+
+{txt}{hline}
+{res}f2{right:Tiempo dedicado al cuidado de personas en comparación a la situación previa al C}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f2}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        34{col 33}       1{col 43}{txt}Ha bajado. ¿Cuántas horas
+{col 43}diarias ha bajado?
+{col 21}{res}       684{col 33}       2{col 43}{txt}Se ha mantenido igual
+{col 21}{res}       318{col 33}       3{col 43}{txt}Ha subido. ¿Cuántas horas
+{col 43}diarias ha subido?
+{col 21}{res}        52{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}       173{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f2_horas{right:Horas diarias dedicadas al cuidado de personas en época de COVID-19}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1{txt},{res}24{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}19{col 51}{txt}missing .:  {res}3,217{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26}  5.8608
+{txt}{col 15}std. dev:{res}{col 26} 5.09907
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       2{col 37}       3{col 47}       4{col 57}       7{col 67}      12
+
+{txt}{hline}
+{res}f3_1{right:En Chile hay enormes desigualdades frente a la pandemia...}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f3_1}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        30{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}       138{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        40{col 33}       3{col 43}{txt}Indiferente
+{col 21}{res}       636{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       396{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}        10{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        11{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f3_2{right:Las autoridades de gobierno han priorizado el bienestar de la población...}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f3_2}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       175{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}       492{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       113{col 33}       3{col 43}{txt}Indiferente
+{col 21}{res}       367{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        79{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}        25{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        10{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f3_3{right:Aunque a veces no estemos de acuerdo con las autoridades sanitarias, es nuestro}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f3_3}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         6{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}        85{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        63{col 33}       3{col 43}{txt}Indiferente
+{col 21}{res}       821{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       276{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}         5{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         5{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f3_4{right:Las medidas que el gobierno ha adoptado para proteger a la población del coronav}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f3_4}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       118{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}       471{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       118{col 33}       3{col 43}{txt}Indiferente
+{col 21}{res}       475{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        57{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}        14{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         8{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f3_5{right:Debieran aplciarse castigos severos a las personas que no cumplan medidas}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f3_5}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        20{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}        90{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        59{col 33}       3{col 43}{txt}Indiferente
+{col 21}{res}       736{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       338{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}         7{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        11{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f4_1{right:Último mes: Ha participado de alguna protesta o movilizacikón social masiva en l}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f4_1}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        36{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,223{col 33}       2{col 43}{txt}No
+{col 21}{res}         2{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f4_2{right:Último mes: Ha colaborado con ollas comunes u otra iniciativa comunitaria}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f4_2}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       331{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       926{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       8{col 43}{txt}NS
+{col 21}{res}         3{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f4_3{right:Último mes: Ha recibido ayuda de alguna iniciativa comunitaria}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f4_3}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       249{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,011{col 33}       2{col 43}{txt}No
+{col 21}{res}         1{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f4_4{right:Último mes: Se ha encontrado en la vía pública durante el toque de queda}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f4_4}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       160{col 33}       1{col 43}{txt}Sí
+{col 21}{res}     1,099{col 33}       2{col 43}{txt}No
+{col 21}{res}         2{col 33}       9{col 43}{txt}NR
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f5_1{right:Puedo proterme completamente del coronavirus si tomo las medidas...}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f5_1}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        19{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}       136{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        43{col 33}       3{col 43}{txt}Indiferente
+{col 21}{res}       843{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       210{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}         4{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         6{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f5_2{right:Me informo constantemente sobre los avances del coronavirus y sus efectos...}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f5_2}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        22{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}        97{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        91{col 33}       3{col 43}{txt}Indiferente
+{col 21}{res}       784{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       246{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}        11{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        10{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f5_3{right:Me siento cada vez más desmotivado para seguir las medidas de protección...}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f5_3}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        84{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}       588{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        76{col 33}       3{col 43}{txt}Indiferente
+{col 21}{res}       432{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        63{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}         5{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        13{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f5_4{right:Resulta cada vez más difícil seguir las medidas de protección sin que esto afect}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f5_4}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        67{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}       495{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        96{col 33}       3{col 43}{txt}Indiferente
+{col 21}{res}       511{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        72{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}        12{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         8{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f5_5{right:En Chile, si una persona sale sin permiso durante una cuarentena es poco probabl}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f5_5}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        16{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}       140{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        58{col 33}       3{col 43}{txt}Indiferente
+{col 21}{res}       785{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       224{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}        24{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        14{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f5_6{right:Incluso considerando la situación sanitaria, estoy dispuesto a participar en man}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f5_6}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       433{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}       654{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        50{col 33}       3{col 43}{txt}Indiferente
+{col 21}{res}        84{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        22{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}         6{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        12{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f6{right:¿Qué tan peligroso cree que es el coronavirus para usted y sus cercanos?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f6}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        19{col 33}       1{col 43}{txt}Nada peligroso
+{col 21}{res}       129{col 33}       2{col 43}{txt}Algo peligroso
+{col 21}{res}       261{col 33}       3{col 43}{txt}Bastante peligroso
+{col 21}{res}       433{col 33}       4{col 43}{txt}Muy peligroso
+{col 21}{res}       407{col 33}       5{col 43}{txt}Extremadamente peligroso
+{col 21}{res}         8{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         4{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f7_1{right:Frecuencia ultima semana: Lavarse las manos durante 20 segundos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f7_1}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        15{col 33}       1{col 43}{txt}Casi nunca
+{col 21}{res}        30{col 33}       2{col 43}{txt}A veces
+{col 21}{res}       213{col 33}       3{col 43}{txt}Frecuentemente
+{col 21}{res}       150{col 33}       4{col 43}{txt}Casi siempre
+{col 21}{res}       849{col 33}       5{col 43}{txt}Siempre
+{col 21}{res}         1{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         3{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f7_2{right:Frecuencia ultima semana: Mantener al menos dos metros de distancia de personas}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f7_2}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        51{col 33}       1{col 43}{txt}Casi nunca
+{col 21}{res}        85{col 33}       2{col 43}{txt}A veces
+{col 21}{res}       158{col 33}       3{col 43}{txt}Frecuentemente
+{col 21}{res}       248{col 33}       4{col 43}{txt}Casi siempre
+{col 21}{res}       710{col 33}       5{col 43}{txt}Siempre
+{col 21}{res}         1{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         8{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f7_3{right:Frecuencia ultima semana: Evitar reunirse con más de 10 personas en un espacio c}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f7_3}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       106{col 33}       1{col 43}{txt}Casi nunca
+{col 21}{res}        53{col 33}       2{col 43}{txt}A veces
+{col 21}{res}       104{col 33}       3{col 43}{txt}Frecuentemente
+{col 21}{res}       158{col 33}       4{col 43}{txt}Casi siempre
+{col 21}{res}       828{col 33}       5{col 43}{txt}Siempre
+{col 21}{res}         1{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        11{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f7_4{right:Frecuencia ultima semana: Usar mascarilla al salir de su hogar}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f7_4}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         9{col 33}       1{col 43}{txt}Casi nunca
+{col 21}{res}         5{col 33}       2{col 43}{txt}A veces
+{col 21}{res}        49{col 33}       3{col 43}{txt}Frecuentemente
+{col 21}{res}        29{col 33}       4{col 43}{txt}Casi siempre
+{col 21}{res}     1,165{col 33}       5{col 43}{txt}Siempre
+{col 21}{res}         1{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         3{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f7_5{right:Frecuencia ultima semana: Usar mascarilla al reunirse con otras personas en un l}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f7_5}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        89{col 33}       1{col 43}{txt}Casi nunca
+{col 21}{res}        72{col 33}       2{col 43}{txt}A veces
+{col 21}{res}        69{col 33}       3{col 43}{txt}Frecuentemente
+{col 21}{res}       132{col 33}       4{col 43}{txt}Casi siempre
+{col 21}{res}       879{col 33}       5{col 43}{txt}Siempre
+{col 21}{res}         6{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        14{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}f8{right:Medidas de cuidado ante el covonarivus, ¿en qué medida su círculo cercano cumple}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:f8}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}8{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       534{col 33}       1{col 43}{txt}Completamente
+{col 21}{res}       399{col 33}       2{col 43}{txt}En gran medida
+{col 21}{res}       223{col 33}       3{col 43}{txt}Bastante
+{col 21}{res}        61{col 33}       4{col 43}{txt}Algo
+{col 21}{res}        23{col 33}       5{col 43}{txt}Poco
+{col 21}{res}         7{col 33}       6{col 43}{txt}Nada
+{col 21}{res}         8{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         6{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g1{right:Durante la semana pasada, ¿trabajó al menos una hora, sin considerar los quehace}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g1}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       612{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       649{col 33}       2{col 43}{txt}No
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g2{right:Aunque no trabajó la semana pasada, ¿realizó alguna actividad por lo menos duran}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g2}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}2,920{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        38{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       611{col 33}       2{col 43}{txt}No
+{col 21}{res}     2,920{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g3{right:Aunque no trabajó la semana pasada, ¿tenía algún empleo, negocio u otra activida}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g3}
+
+{col 18}range:  [{res}1{txt},{res}10{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}2,958{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        19{col 33}       1{col 43}{txt}Sí, por suspensión temporal de
+{col 43}su contrato laboral por COVID-19
+{col 21}{res}         3{col 33}       2{col 43}{txt}Sí, por licencia médica por
+{col 43}COVID-19
+{col 21}{res}         7{col 33}       3{col 43}{txt}Sí, por permiso de su empleador
+{col 43}por cuarentena u otra razón
+{col 21}{res}        14{col 33}       4{col 43}{txt}Sí, por licencia médica por otra
+{col 43}enfermedad
+{col 21}{res}         3{col 33}       5{col 43}{txt}Sí, por permiso pre o postnatal
+{col 21}{res}         7{col 33}       7{col 43}{txt}Sí, por enfermedad
+{col 21}{res}         2{col 33}       8{col 43}{txt}Sí, por vacaciones
+{col 21}{res}        10{col 33}       9{col 43}{txt}Sí, por otra razón. Especifique
+{col 21}{res}       546{col 33}      10{col 43}{txt}No
+{col 21}{res}     2,958{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g3_esp{right:Especifique otra razón por la cual estuvo ausente temporamente la semana pasada}
+{txt}{hline}
+
+{col 19}type:  string ({res}strL{txt})
+
+{col 10}unique values:  {res}11{col 51}{txt}missing "":  {res}0{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}""
+
+{txt}{col 16}warning:  variable has leading, embedded, and trailing blanks
+
+{txt}{hline}
+{res}g4{right:¿Ha trabajado alguna vez?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g4}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}3,023{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       438{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       108{col 33}       2{col 43}{txt}No
+{col 21}{res}     3,023{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g5{right:¿Buscó trabajo remunerado o realizó alguna gestión para iniciar actividad por cu}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g5}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}3,023{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        53{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       493{col 33}       2{col 43}{txt}No
+{col 21}{res}     3,023{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g6{right:¿Cuál es la razón principal por la que no buscó trabajo o realizó alguna gestión}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g6}
+
+{col 18}range:  [{res}1{txt},{res}8{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}8{col 51}{txt}missing .:  {res}3,076{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        87{col 33}       1{col 43}{txt}Está dedicado(a) a los
+{col 43}quehaceres del hogar
+{col 21}{res}        47{col 33}       2{col 43}{txt}Está dedicado(a) al cuidado de
+{col 43}menores
+{col 21}{res}        12{col 33}       3{col 43}{txt}Está dedicado(a) al cuidado de
+{col 43}algún adulto mayor o enfermo
+{col 21}{res}        34{col 33}       4{col 43}{txt}Está estudiando
+{col 21}{res}        49{col 33}       5{col 43}{txt}Está inválido(a) o tiene alguna
+{col 43}enfermedad crónica
+{col 21}{res}       172{col 33}       6{col 43}{txt}Está jubilado(a) o tiene alguna
+{col 43}pensión
+{col 21}{res}         4{col 33}       7{col 43}{txt}Es menor de edad o de edad
+{col 43}avanzada
+{col 21}{res}        88{col 33}       8{col 43}{txt}Otra razón. Especifique
+{col 21}{res}     3,076{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g6_esp{right:Especifique la razón principal por la que no buscó trabajo o realizó alguna gest}
+{txt}{hline}
+
+{col 19}type:  string ({res}strL{txt})
+
+{col 10}unique values:  {res}82{col 51}{txt}missing "":  {res}0{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}""
+
+{txt}{col 16}warning:  variable has leading, embedded, and trailing blanks
+
+{txt}{hline}
+{res}g6b{right:El mes pasado, ¿usted habría estado buscado trabajo si no nos encontráramos en l}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g6b}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}3,076{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       134{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       359{col 33}       2{col 43}{txt}No
+{col 21}{res}     3,076{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g8_codif{right:g8_codif}
+{txt}{hline}
+
+{col 19}type:  string ({res}str8{txt})
+
+{col 10}unique values:  {res}40{col 51}{txt}missing "":  {res}2,854{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}"11"
+
+{txt}{hline}
+{res}g9_mes{right:Mes desde el que tiene su trabajo o negocio principal}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g9_mes}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,854{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       481{col 33}       1{col 43}{txt}Ingrese mes
+{col 21}{res}       172{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        62{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,854{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g9_agno{right:Año desde el que tiene su trabajo o negocio principal}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g9_agno}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2,854{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       679{col 33}       1{col 43}{txt}Ingrese año
+{col 21}{res}        19{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        17{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,854{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g10{right:En su trabajo o negocio principal, ¿Ud. trabaja como…?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g10}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}2,854{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        40{col 33}       1{col 43}{txt}Patrón o empleador
+{col 21}{res}       203{col 33}       2{col 43}{txt}Trabajador por cuenta propia
+{col 21}{res}       104{col 33}       3{col 43}{txt}Empleado u obrero del sector
+{col 43}público
+{col 21}{res}        38{col 33}       4{col 43}{txt}Empleado u obrero de empresa
+{col 43}pública
+{col 21}{res}       295{col 33}       5{col 43}{txt}Empleado u obrero del sector
+{col 43}privado
+{col 21}{res}         6{col 33}       6{col 43}{txt}Servicio doméstico puertas
+{col 43}adentro
+{col 21}{res}        16{col 33}       7{col 43}{txt}Servicio doméstico puertas
+{col 43}afuera
+{col 21}{res}         2{col 33}       8{col 43}{txt}FF.AA. y de Orden
+{col 21}{res}        11{col 33}       9{col 43}{txt}Familiar no remunerado
+{col 21}{res}     2,854{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g12_codif{right:g12_codif}
+{txt}{hline}
+
+{col 19}type:  string ({res}str8{txt})
+
+{col 10}unique values:  {res}24{col 51}{txt}missing "":  {res}2,854{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}"1"
+
+{txt}{hline}
+{res}g14a_horas{right:Horas trabajadas durante la semana pasada}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}0{txt},{res}999{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}57{col 51}{txt}missing .:  {res}2,854{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 66.7441
+{txt}{col 15}std. dev:{res}{col 26} 185.964
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       3{col 37}       9{col 47}      35{col 57}      45{col 67}      60
+
+{txt}{hline}
+{res}g14a_dias{right:Días trabajados durante la semana pasada}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}0{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}2,854{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}        58{col 33}0
+{col 21}        14{col 33}1
+{col 21}        27{col 33}2
+{col 21}        39{col 33}3
+{col 21}        50{col 33}4
+{col 21}       327{col 33}5
+{col 21}        87{col 33}6
+{col 21}        90{col 33}7
+{col 21}        23{col 33}9
+{col 21}     2,854{col 33}.
+
+{txt}{hline}
+{res}g14b{right:Horas realizadas bajo la modalidad de teletrabajo durante la semana pasada}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}0{txt},{res}999{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}44{col 51}{txt}missing .:  {res}2,854{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 60.2629
+{txt}{col 15}std. dev:{res}{col 26} 213.966
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       0{col 37}       0{col 47}       0{col 57}      30{col 67}      48
+
+{txt}{hline}
+{res}g18{right:Desde el inicio de la pandemia, ¿los ingresos por ventas de su empresa o negocio}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g18}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}3,326{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       154{col 33}       1{col 43}{txt}Han disminuido. ¿En qué
+{col 43}porcentaje?
+{col 21}{res}        58{col 33}       2{col 43}{txt}Se han mantenido constante
+{col 21}{res}        17{col 33}       3{col 43}{txt}Ha aumentado. ¿En qué
+{col 43}porcentaje?
+{col 21}{res}        10{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         4{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     3,326{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g18_porcentaje{right:Variación porcentual de los ingresos de la empresa o negocio desde el inicio de}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}10{txt},{res}300{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}17{col 51}{txt}missing .:  {res}3,398{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 61.2456
+{txt}{col 15}std. dev:{res}{col 26} 36.2786
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      30{col 37}      50{col 47}      50{col 57}      80{col 67}     100
+
+{txt}{hline}
+{res}g31_mes_preg{right:Pregunta Filtro: Mes en el que perdió o dejó su último trabajo}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g31_mes_preg}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}3,519{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        40{col 33}       1{col 43}{txt}Ingrese mes
+{col 21}{res}         5{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         5{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     3,519{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g31_mes{right:Mes en el que perdió o dejó su último trabajo}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1{txt},{res}12{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}12{col 51}{txt}missing .:  {res}3,529{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26}   5.975
+{txt}{col 15}std. dev:{res}{col 26} 3.68286
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       2{col 37}       3{col 47}       5{col 57}     9.5{col 67}    11.5
+
+{txt}{hline}
+{res}g31_agno_preg{right:Pregunta filtro: Año en el que perdió o dejó su último trabajo}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g31_agno_preg}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}3,519{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        44{col 33}       1{col 43}{txt}Ingrese año
+{col 21}{res}         4{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         2{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     3,519{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g31_agno{right:Año en el que perdió o dejó su último trabajo}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}2015{txt},{res}2020{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}3,525{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}         1{col 33}2015
+{col 21}         1{col 33}2017
+{col 21}         5{col 33}2018
+{col 21}         9{col 33}2019
+{col 21}        28{col 33}2020
+{col 21}     3,525{col 33}.
+
+{txt}{hline}
+{res}g32_codif{right:g32_codif}
+{txt}{hline}
+
+{col 19}type:  string ({res}str8{txt})
+
+{col 10}unique values:  {res}23{col 51}{txt}missing "":  {res}3,519{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}""
+
+{txt}{hline}
+{res}g33_agno_preg{right:Pregunta Filtro: Tiempo que duró su último trabajo o negocio: Años}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g33_agno_preg}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}3,519{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        39{col 33}       1{col 43}{txt}Ingrese cantidad de años
+{col 21}{res}         5{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         6{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     3,519{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g33_agno{right:Tiempo que duró su último trabajo o negocio: Años}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}0{txt},{res}18{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}3,530{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}         8{col 33}0
+{col 21}         9{col 33}1
+{col 21}         7{col 33}2
+{col 21}         3{col 33}3
+{col 21}         2{col 33}4
+{col 21}         6{col 33}5
+{col 21}         1{col 33}6
+{col 21}         2{col 33}8
+{col 21}         1{col 33}18
+{col 21}     3,530{col 33}.
+
+{txt}{hline}
+{res}g33_mes_preg{right:Pregunta Filtro: Tiempo que duró su último trabajo o negocio: Meses}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g33_mes_preg}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}3,519{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        29{col 33}       1{col 43}{txt}Ingrese cantidad de meses
+{col 21}{res}        17{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         4{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     3,519{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g33_mes{right:Tiempo que duró su último trabajo o negocio: Meses}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}0{txt},{res}12{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}10{col 51}{txt}missing .:  {res}3,540{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 5.13793
+{txt}{col 15}std. dev:{res}{col 26} 4.05079
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       0{col 37}       2{col 47}       5{col 57}       8{col 67}      12
+
+{txt}{hline}
+{res}g34{right:En su último trabajo o negocio, ¿Ud. trabajaba como…?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g34}
+
+{col 18}range:  [{res}2{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}3,519{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        14{col 33}       2{col 43}{txt}Trabajador por cuenta propia
+{col 21}{res}         2{col 33}       3{col 43}{txt}Empleado u obrero del sector
+{col 43}público
+{col 21}{res}         2{col 33}       4{col 43}{txt}Empleado u obrero de empresa
+{col 43}pública
+{col 21}{res}        28{col 33}       5{col 43}{txt}Empleado u obrero del sector
+{col 43}privado
+{col 21}{res}         1{col 33}       6{col 43}{txt}Servicio doméstico puertas
+{col 43}adentro
+{col 21}{res}         2{col 33}       7{col 43}{txt}Servicio doméstico puertas
+{col 43}afuera
+{col 21}{res}         1{col 33}       9{col 43}{txt}Familiar no remunerado
+{col 21}{res}     3,519{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g40{right:En diciembre de 2019, ¿tenía algún empleo o trabajo remunerado?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g40}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}2,954{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       189{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       426{col 33}       2{col 43}{txt}No
+{col 21}{res}     2,954{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g36_codif{right:g36_codif}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}98{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}14{col 51}{txt}missing .:  {res}3,519{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26}   25.22
+{txt}{col 15}std. dev:{res}{col 26} 32.5277
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}     6.5{col 37}       7{col 47}    13.5{col 57}      20{col 67}      98
+
+{txt}{hline}
+{res}g42_codif{right:g42_codif}
+{txt}{hline}
+
+{col 19}type:  string ({res}str8{txt})
+
+{col 10}unique values:  {res}33{col 51}{txt}missing "":  {res}3,380{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}""
+
+{txt}{hline}
+{res}g43_agno_preg{right:Pregunta Filtro: Tiempo que duró trabajo en diciembre 2019: Años}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g43_agno_preg}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}3,380{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       151{col 33}       1{col 43}{txt}Ingrese cantidad de años
+{col 21}{res}        24{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        14{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     3,380{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g43_agno{right:Tiempo que duró trabajo que tenía en diciembre 2019: Años}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}0{txt},{res}36{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}25{col 51}{txt}missing .:  {res}3,418{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 5.49007
+{txt}{col 15}std. dev:{res}{col 26} 7.91275
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       0{col 37}       1{col 47}       2{col 57}       6{col 67}      16
+
+{txt}{hline}
+{res}g43_mes_preg{right:Pregunta Filtro: Tiempo que duró trabajo en diciembre 2019: Meses}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g43_mes_preg}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}3,380{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       119{col 33}       1{col 43}{txt}Ingrese cantidad de meses
+{col 21}{res}        53{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        17{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     3,380{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g43_mes{right:Tiempo que duró trabajo que tenía en diciembre 2019: Meses}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}0{txt},{res}12{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}13{col 51}{txt}missing .:  {res}3,450{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 4.87395
+{txt}{col 15}std. dev:{res}{col 26} 4.01386
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       0{col 37}       1{col 47}       5{col 57}       8{col 67}      12
+
+{txt}{hline}
+{res}g44{right:En ese trabajo o negocio en diciembre de 2019, ¿Ud. trabajaba como…?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g44}
+
+{col 18}range:  [{res}1{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}3,380{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         1{col 33}       1{col 43}{txt}Patrón o empleador
+{col 21}{res}        48{col 33}       2{col 43}{txt}Trabajador por cuenta propia
+{col 21}{res}        12{col 33}       3{col 43}{txt}Empleado u obrero del sector
+{col 43}público
+{col 21}{res}         9{col 33}       4{col 43}{txt}Empleado u obrero de empresa
+{col 43}pública
+{col 21}{res}        94{col 33}       5{col 43}{txt}Empleado u obrero del sector
+{col 43}privado
+{col 21}{res}         7{col 33}       6{col 43}{txt}Servicio doméstico puertas
+{col 43}adentro
+{col 21}{res}        18{col 33}       7{col 43}{txt}Servicio doméstico puertas
+{col 43}afuera
+{col 21}{res}     3,380{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g45_codif{right:g45_codif}
+{txt}{hline}
+
+{col 19}type:  string ({res}str8{txt})
+
+{col 10}unique values:  {res}20{col 51}{txt}missing "":  {res}3,380{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}""
+
+{txt}{hline}
+{res}g46_horas{right:Horas trabajadas semanalmente durante diciembre 2019}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}0{txt},{res}999{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}41{col 51}{txt}missing .:  {res}3,380{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26} 86.1852
+{txt}{col 15}std. dev:{res}{col 26} 217.197
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       7{col 37}      20{col 47}      44{col 57}      45{col 67}      66
+
+{txt}{hline}
+{res}g46_dias{right:Días trabajados semanalmente durante diciemnbre 2019}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}0{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}3,380{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}         1{col 33}0
+{col 21}         2{col 33}1
+{col 21}         7{col 33}2
+{col 21}        11{col 33}3
+{col 21}        11{col 33}4
+{col 21}        96{col 33}5
+{col 21}        36{col 33}6
+{col 21}        16{col 33}7
+{col 21}         9{col 33}9
+{col 21}     3,380{col 33}.
+
+{txt}{hline}
+{res}g47{right:¿Cuál fue el monto de ingreso total de su hogar el mes de noviembre de 2020?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g47}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       942{col 33}       1{col 43}{txt}Indique monto $
+{col 21}{res}       319{col 33}       9{col 43}{txt}No sabe/no responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g47_monto{right:Monto de ingreso total de su hogar el mes de noviembre de 2020}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}0{txt},{res}12000000{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}151{col 51}{txt}missing .:  {res}2,627{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26}  679415
+{txt}{col 15}std. dev:{res}{col 26}  836326
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}  140000{col 37}  250000{col 47}  400000{col 57}  700000{col 67} 1.5e+06
+
+{txt}{hline}
+{res}g48{right:Tramo de ingreso total de su hogar el mes de noviembre de 2020}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g48}
+
+{col 18}range:  [{res}1{txt},{res}99{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}3,250{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        47{col 33}       1{col 43}{txt}Menos de $200 mil pesos
+{col 21}{res}        57{col 33}       2{col 43}{txt}Entre $200 y 350 mil pesos
+{col 21}{res}        38{col 33}       3{col 43}{txt}Entre $351 y 500 mil pesos
+{col 21}{res}        35{col 33}       4{col 43}{txt}Entre 501 y 800 mil pesos
+{col 21}{res}         9{col 33}       5{col 43}{txt}Entre 801 mil y 1 millón 200 mil
+{col 43}pesos
+{col 21}{res}        15{col 33}       6{col 43}{txt}Entre 1 millón 201 mil y 2
+{col 43}millones de pesos
+{col 21}{res}         8{col 33}       7{col 43}{txt}Entre 2 millones y 5 millones de
+{col 43}pesos
+{col 21}{res}        56{col 33}      98{col 43}{txt}No sabe
+{col 21}{res}        54{col 33}      99{col 43}{txt}No responde
+{col 21}{res}     3,250{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g49{right:¿Usted diría que el ingreso de su hogar en noviembre de 2020 comparado con novie}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g49}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       602{col 33}       1{col 43}{txt}Ha bajado. ¿En qué porcentaje?
+{col 21}{res}       485{col 33}       2{col 43}{txt}Se han mantenido constante
+{col 21}{res}       123{col 33}       3{col 43}{txt}Ha aumentado. ¿En qué
+{col 43}porcentaje?
+{col 21}{res}        30{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}        21{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}g49_porcentaje{right:Variación porcentual de los ingresos del hogar entre noviembre 2020 y noviembre}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1{txt},{res}200{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}30{col 51}{txt}missing .:  {res}2,844{txt}/{res}3,569
+
+{txt}{col 19}mean:{res}{col 26}   46.96
+{txt}{col 15}std. dev:{res}{col 26} 25.6213
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      15{col 37}      30{col 47}      50{col 57}      60{col 67}      90
+
+{txt}{hline}
+{res}g50{right:¿Este cambio está asociado a la pandemia por COVID-19?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:g50}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}2,844{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       586{col 33}       1{col 43}{txt}Sí
+{col 21}{res}       123{col 33}       2{col 43}{txt}No
+{col 21}{res}        15{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         1{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,844{col 33}       .{col 43}
+
+{txt}{hline}
+{res}v1{right:Si la vacuna contra el COVID-19 estuviera aprobada a comienzos del año 2021 y gr}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:v1}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}2,308{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       406{col 33}       1{col 43}{txt}Me vacunaría sin dudas
+{col 21}{res}       215{col 33}       2{col 43}{txt}Es muy probable que me vacune
+{col 21}{res}       112{col 33}       3{col 43}{txt}Es bastante probable que me
+{col 43}vacune
+{col 21}{res}       257{col 33}       4{col 43}{txt}Es poco probable que me vacune
+{col 21}{res}       231{col 33}       5{col 43}{txt}No me vacunaría por ningún
+{col 43}motivo
+{col 21}{res}        33{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}         7{col 33}       9{col 43}{txt}No responde
+{col 21}{res}     2,308{col 33}       .{col 43}
+
+{txt}{hline}
+{res}v2_1{right:Razones de no vacunación: Me preocupa que la vacuna COVID-19 tenga efectos adver}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:v2_1}
+
+{col 18}range:  [{res}1{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,325{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       244{col 33}       1{col 43}{txt}Me preocupa que la vacuna
+{col 43}COVID-19 tenga efectos adversos
+{col 43}para mi salud
+{col 21}{res}     3,325{col 33}       .{col 43}
+
+{txt}{hline}
+{res}v2_2{right:Razones de no vacunación: Me preocupa que el desarrollo rápido de la vacuna para}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:v2_2}
+
+{col 18}range:  [{res}2{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,437{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       132{col 33}       2{col 43}{txt}Me preocupa que el desarrollo
+{col 43}rápido de la vacuna para el
+{col 43}COVID-19 la haga menos
+{col 21}{res}     3,437{col 33}       .{col 43}
+
+{txt}{hline}
+{res}v2_3{right:Razones de no vacunación: No creo que la vacuna sea realmente efectiva contra el}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:v2_3}
+
+{col 18}range:  [{res}3{txt},{res}3{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,426{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       143{col 33}       3{col 43}{txt}No creo que la vacuna sea
+{col 43}realmente efectiva contra el
+{col 43}COVID-19
+{col 21}{res}     3,426{col 33}       .{col 43}
+
+{txt}{hline}
+{res}v2_4{right:Razones de no vacunación: El riesgo que yo tengo de contraer COVID-19 es bajo}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:v2_4}
+
+{col 18}range:  [{res}4{txt},{res}4{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,547{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        22{col 33}       4{col 43}{txt}El riesgo que yo tengo de
+{col 43}contraer COVID-19 es bajo
+{col 21}{res}     3,547{col 33}       .{col 43}
+
+{txt}{hline}
+{res}v2_5{right:Razones de no vacunación: Estoy en contra de las vacunas en general}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:v2_5}
+
+{col 18}range:  [{res}5{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,549{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        20{col 33}       5{col 43}{txt}Estoy en contra de las vacunas
+{col 43}en general
+{col 21}{res}     3,549{col 33}       .{col 43}
+
+{txt}{hline}
+{res}v2_6{right:Razones de no vacunación: Otra razón ¿Cuál?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:v2_6}
+
+{col 18}range:  [{res}6{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,489{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        80{col 33}       6{col 43}{txt}Otra razón ¿Cuál?
+{col 21}{res}     3,489{col 33}       .{col 43}
+
+{txt}{hline}
+{res}v2_6_esp{right:Especifique otra razón por la cual es poco o nada probable que se vacune}
+{txt}{hline}
+
+{col 19}type:  string ({res}strL{txt})
+
+{col 10}unique values:  {res}79{col 51}{txt}missing "":  {res}0{txt}/{res}3,569
+
+{txt}{col 15}examples:  {res}""
+{col 26}""
+{col 26}""
+{col 26}""
+
+{txt}{col 16}warning:  variable has leading, embedded, and trailing blanks
+
+{txt}{hline}
+{res}v2_8{right:Razones de no vacunacíon: No sabe}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:v2_8}
+
+{col 18}range:  [{res}8{txt},{res}8{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}3,565{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}         4{col 33}       8{col 43}{txt}No sabe
+{col 21}{res}     3,565{col 33}       .{col 43}
+
+{txt}{hline}
+{res}v2_9{right:Razones de no vacunacíon: No responde}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+{ralign 22:label}:  {res:v2_9}
+
+{col 18}range:  [{res}.{txt},{res}.{txt}]{col 55}units:  {res}.
+{col 10}{txt}unique values:  {res}0{col 51}{txt}missing .:  {res}3,569{txt}/{res}3,569
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}     3,569{col 33}       .{col 43}
+
+{com}. translate log-codebook.smcl log-codebook.pdf
+{txt}(file log-codebook.pdf written in PDF format)
+
+{com}. exit, clear
