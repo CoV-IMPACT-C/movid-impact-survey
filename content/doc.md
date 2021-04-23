@@ -1,11 +1,7 @@
 ---
-description: Documentación de Visualizador de Indicadores Comparativos de Cohesión Social para América Latina
+description: Documentación MOVID-IMPACT
 keywords:
-- shiny
-- indicadores
-- lapop
-- latinoamerica
-- visualizador
+- movid
 ---
 
 <br><br><br>
@@ -32,7 +28,18 @@ keywords:
                                 <i class="fas fa-file"></i>
                             </div>
                         </a>
-                        <h3>Formato CSV</h3>
+                        <h3>Informe Metodológico</h3>
+                        <p></p>
+                    </div>
+                </div>
+        <div class="col-md-4">
+                    <div class="box-simple">
+                        <a href="https://rpubs.com/valentinaandrade/movid-impact-codebook">
+                            <div class="icon">
+                                <i class="fas fa-pen"></i>
+                            </div>
+                        </a>
+                        <h3>Libro de códigos</h3>
                         <p></p>
                     </div>
                 </div>
