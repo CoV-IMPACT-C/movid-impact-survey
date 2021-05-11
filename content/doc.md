@@ -23,7 +23,7 @@ keywords:
                 </div>
         <div class="col-md-4">
                     <div class="box-simple">
-                        <a href="../input/docs/Informe_Metodologico_MOVID-IMPACT">
+                        <a href="../input/docs/Informe_Metodologico_MOVID-IMPACT.pdf">
                             <div class="icon">
                                 <i class="fas fa-file"></i>
                             </div>
