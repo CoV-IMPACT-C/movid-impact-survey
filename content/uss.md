@@ -5,6 +5,8 @@ keywords:
 title: 
 ---
 
+<br><br>
+
 # Proyecto de vinculación Universidad San Sebastián y MOVID-IMPACT
 
 En el siguiente sitio podrás encontrar el video de presentación sobre el proyecto y la presentación.
