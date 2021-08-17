@@ -1,0 +1,35 @@
+# Esquema presentacion 02 - MOVIDIMPACT
+
+# Lámina 1: ¿Qué es MOVID-19?
+# Lámina 2: ¿Quienes somos MOVID-19?
+# Lámina 3: MOVID-Impact: Metodología, dimensiones
+# Lámina 4: ¿Cuánto nos cuidamos del COVID-19 en Chile?
+## 1 Gráfico descriptivo de cumplimiento de toque de queda y los 5 cuidados (quizás usar un grid de 3 x 2)
+## f4_4, f7_1, f7_2, f7_3, f7_4, f7_5
+## Cada gráfico con todas las categorías de respuesta y un NS/NR. Ponderados.
+# Lámina 5: ¿Por qué no nos cuidamos del COVID-19 en Chile? | Porque no creemos que el COVID-19 sea un peligro real
+## 1 Gráfico descriptivo de f6 con todas las categorías de respuesta y un NS/NR. Ponderados.
+# Lámina 6: ¿Por qué no nos cuidamos del COVID-19 en Chile? | Porque no creemos que el COVID-19 sea un peligro real
+## 1 Gráfico de probabilidades predichas de cumplir "siempre" con cada medida para peligro = 1 y peligro = 5 -
+## incluir variables de cuidado donde hay diferencias significativas
+# Lámina 7: ¿Por qué no nos cuidamos del COVID-19 en Chile? | Porque nos sentimos invencibles
+## 1 Gráfico descriptivo de f5_1 con todas las categorías de respuesta y un NS/NR
+# Lámina 8: ¿Por qué no nos cuidamos del COVID-19 en Chile? | Porque nos sentimos invencibles
+## 1 Gráfico de probabilidades predichas de cumplir "siempre" con cada medida para f5_1 = 1 y f5_1 = 5 -
+## incluir variables de cuidado donde hay diferencias significativas
+# Lámina 9: ¿Por qué no nos cuidamos del COVID-19 en Chile? | Porque no pasará nada si no seguimos las reglas
+## 1 Gráfico descriptivo de f5_5 con todas las categorías de respuesta y un NS/NR
+# Lámina 10: ¿Por qué no nos cuidamos del COVID-19 en Chile? | Porque no pasará nada si no seguimos las reglas
+## 1 Gráfico de probabilidades predichas de cumplir "siempre" con cada medida para f5_5 = 1 y f5_5 = 5 -
+## incluir variables de cuidado donde hay diferencias significativas
+# Lámina 11: ¿Por qué no nos cuidamos del COVID-19 en Chile? | Porque los demás tampoco lo hacen
+## 1 Gráfico descriptivo de f8 con todas las categorías de respuesta y un NS/NR
+# Lámina 12: ¿Por qué no nos cuidamos del COVID-19 en Chile? | Porque los demás tampoco lo hacen
+## 1 Gráfico de probabilidades predichas de cumplir "siempre" con cada medida para f8 = 1 y f8 = 6 -
+## incluir variables de cuidado donde hay diferencias significativas
+# Lámina 13: ¿Cómo promovemos el respeto a las medidas de cuidado COVID-19?
+## Comunicación de riesgos
+## Fiscalización real y comunicada a la ciudadanía
+## Comunicar normas sociales (ejemplos de quienes cumplen, no de quienes no cumplen)
+## ¿Propuestas más concretas?
+# Lámina 14: Chao

@@ -1,0 +1,120 @@
+- Org: https://docs.google.com/spreadsheets/d/14kdo3l7woNPe20lXuDX8iogrub36y9CP2WVHmpVqB5s/edit#gid=87613039
+- 5 minutos
+
+1. 
+- CoV-IMPACT- C "Coronavirus Impact Monitor: Policy, Access, Control and Transectorial Consequences" Proyecto ANID-COVID N° 960
+- Valentina Andrade de la Horra
+- Martes 17 de noviembre 2020, 9.30 
+
+- Semana de Articulación COVID-19, ANID
+
+2. Quiénes somos
+
+- Somos un proyecto compuesto por más de 36 investigadores/as de distintas disciplinas y casas de estudio, a cargo del Dr. Cristóbal Cuadrado Nahum
+
+- Patrocinado por la Universidad de Chile. 
+
+- Nuestro objetivo general es: Evaluar la respuesta del sistema de salud y la política social a la pandemia COVID-19
+para retroalimentar futuros abordajes ante agentes con potencial epidémico
+
+- A partir de este objetivo,  conformamos líneas temáticas y transversales, para el cumplimiento de los objetivos específicos de los productos comprometidos (mostrar organigrama).En las líneas temáticas  está la línea Acceso , línea impacto, la línea social y línea de desarrollo de indicadores; mientras que a nivel transversal tenemos una línea cualitativa y línea de encuestas. 
+
+- De modo de que conozcan nuestro trabajo y avances iré revisando objetivos y principales avances alcanzados 
+
+3. Líneas transversales
+
+3.1 Línea de Encuestas
+
+- Monica Gerber Plüss, Dra en Métodos de Investigacion Social en LSE, académica de UDP
+
+- Es la primera que nombro pues el antecedente de este proyecto proviene del Monitoreo Nacional de Prácticas y Síntomas COVID-19 (MOVID-19)
+
+- MOVID-19: consiste en una encuesta panel no representativa, con una población objetivo de mayores de 18 años que residen en el territorio nacional. Esta encuesta se ha desarrollado desde abril a la fecha semana a semana. (Poner link de sitio web, shiny, informes). Gracias a la participación de cerca de 40.000 participantes semanales, esta encuesta nos ha permitido elaborar 10 informes de los cuáles 8 han sido prsentados en la Mesa Social COVID-19. Uno de los más recientes ha sido uno relativo al impacto de la pandemia en atenciones de salud no relacionadas a COVID-19 (por ejemplo, en enfermos crónicos). 
+
+- Hemos dejado a disposición un dashboard con los datos actualizados en shiny apps. 
+
+- EPESEC19 (Encuesta Pulso Epidemiológico y Social de la Epidemia COVID-19): una encuesta telefónica de hogares con representatividad nacional para levantar información sobre síntomas, acceso a servicios de salud y características sociodemográficas. Se realizarán dos olas: una en noviembre y otra en abril. En base a la evidencia que ha mostrado literatura internacional + el contexto que nos da MOVID-19, por sus carácteristicas de diseño muestral, con EPESEC realizaremos modelos y análisis más robustos sobre el impacto de la pandemia en las distintas aristas que comentaré en el punto 4. 
+
+3.2 Línea Cualitativa
+
+- María Sol Anigstein, académica del depto de Antropología de la Universidad de Chile. 
+
+- Estudio de casos de dos comunas de la Región Metropolitana: Independencia y San Joaquín. 
+
+- La aceptabilidad de las políticas públicas, la adherencia a intervenciones propuestas por las autoridades, las prácticas de cuidado y los efectos de salud para las personas.
+- 50 entrevistas semi-estructuradas a actores clave: participantes de organizaciones sociales y vecinales, profesionales sanitarios y autoridades de salud relacionados con las comunas
+- Documentos oficiales de encuestas nacionales, revisión documental en ambas comunas y observación participante desde una metodología etnográfica (presencial y virtual)
+- Entrevistas a actores claves
+
+- Lecciones principales
+
+4.Lineas temáticas
+
+- En relación a los O.E se desprenden:
+
+4.1 Linea de Acceso
+
+- A cargo de la socióloga Dr.a Alejandra Fuentes, de la Escuela de Salud Pública. 
+
+- Objetivo: Evaluar el acceso efectivo y la equidad de servicios de salud relacionados y no relacionados a COVID-19, en el contexto de la pandemia.
+
+## 3.1 Acceso
+
+- **Evaluar el acceso efectivo y la equidad de servicios de salud relacionados y no relacionados a COVID-19, en el contexto de la pandemia** 
+
+
+- Acceso COVID-19
+- Paper1 publicado: “Propiedades diagnósticas de las definiciones de caso sospechoso de COVID-19 en Chile” en la Revista Panamericana de Salud Pública. (https://github.com/CoV-IMPACT-C/Diagnostic-criteria-COVID19-Chile)
+
+
+- Acceso No-COVID-19: 
+- - Paper 2. "Gender disparities in access to care for time-sensitive conditions during COVID-19 pandemic in Chile" (under review)
+
+repo: https://github.com/CoV-IMPACT-C/gender-impact-access-covid
+- [¿Cuál ha sido el impacto de la pandemia en el acceso a atenciones de salud? Un análisis para la adaptación de nuestro sistema de salud](https://www.movid19.cl/publicaciones/decimo-informe/)
+- repo: https://github.com/CoV-IMPACT-C/acceso-nocovid
+
+- Se están desarrollando 2 papers con acceso a enfermos cronicos:
+- a. Paper 1: ¿Se asocia el posponer el control de patologías crónicas a características sociales, demográficas o clínicas de las personas?  
+- b. Paper 2. Cómo se asocian distintas dimensiones de riesgo al COVID y conductas de atención de salud (posponer controles o decidir consultar ante un nuevo problema de salud)
+- Tambien salio un informe con datos de IMED sobre el impacto de la pandemia en acceso de prestaciones relacionadas con cancer, donde encontramos una caida de cerca del 60% en la utilización de consultas y examenes diagnosticos (viendose mujeres y mayores + afectados)
+- En camino va un proyecto cualitativo que estudia Trayectorias asistenciales de pacientes con enfermedades oncológicas durante la pandemia (INCANCER). 
+
+4.2 Línea de Impacto
+
+- A cargo del salubrista  Sebastían Peña 
+
+
+- Objetivo: Evaluar el impacto de las políticas públicas implementadas para responder a la
+pandemia COVID-19.
+
+
+4.3 Línea Social
+
+- **Analizar el rol del contexto social en el que se inserta la pandemia en Chile en la aceptabilidad de las políticas públicas, la adherencia a intervenciones propuestas por las autoridades ** 
+
+## 3.2 Social 
+
+- **Paper N° 3**: Stay home, stay safe: analysis of the compliance with stay-at-home policies in Chile during the COVID-19 pandemic *Political Psicology* (*under review*)
+compliance(aceptación)
+## 3.2 Social 
+
+- **Informe técnico N°3: **[¿Cuál ha sido el impacto de la pandemia en las labores de cuidado?: Un análisis desde una perspectiva de género](https://www.movid19.cl/publicaciones/decimo-informe/)
+
+## 4.4 Línea de Indicadores
+
+
+- **Desarrollar indicadores que permitan apoyar la toma de decisiones de aplicación y desescalamiento de intervenciones epidemiológicas para responder a una pandemia.** 
+
+- **Indicadores han aportado en ICOVID** 
+
+(*participa Dra. Fuentes, Dr. Cuadrado, Dr. Canals*)
+- Propuesta de indicador resumen de riesgo
+
+5. Cierre
+
+¡Muchas gracias!
+
+Para más información
+
+# [www.movid19.cl/](https://www.movid19.cl/)

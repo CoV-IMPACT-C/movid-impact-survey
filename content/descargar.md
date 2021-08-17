@@ -41,10 +41,10 @@ title:
                     <div class="box-simple">
                         <a href="../input/data/MOVID-IMPACT.RData">
                             <div class="icon">
-                                <i class="fab fa-r-project"></i>
+                                <i class="fas fa-file"></i>
                             </div>
                         </a>
-                        <h3>En formato RData</h3>
+                        <h3>En formato SPSS</h3>
                         <p></p>
                     </div>
                 </div>

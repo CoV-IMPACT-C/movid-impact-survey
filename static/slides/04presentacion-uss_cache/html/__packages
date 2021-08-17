@@ -1,0 +1,10 @@
+base
+RefManageR
+knitr
+icons
+metathis
+usethis
+devtools
+testthat
+roxygen2
+pkgdown

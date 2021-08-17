@@ -1,0 +1,123 @@
+div.my-header {
+    background-color: #F77A00;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffb76b), color-stop(0%,#ffa73d), color-stop(0%,#ffffff), color-stop(10%,#ffffff), color-stop(25%,#F77A00), color-stop(100%,#F77A00));
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+}
+
+div.my-footer {
+    background-color: #272822;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+}
+div.my-footer span {
+    font-size: 10pt;
+    color: #F7F8FA;
+    position: absolute;
+    left: 15px;
+    bottom: 2px;
+}
+
+.logo-left {
+content: "";
+    position: absolute;
+    top: 18px;
+    left:   20px;
+    height: 180px;
+    width: 270px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://i.ibb.co/TR35Jm8/logo-final.png);
+}
+
+.logo-uss-left {
+content: "";
+    position: absolute;
+    top: 18px;
+    left:   20px;
+    height: 180px;
+    width: 270px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://i.ibb.co/znvkcnj/uss-logo.png);
+}
+
+.logo-ussb-left {
+content: "";
+    position: absolute;
+    top: 18px;
+    left:   20px;
+    height: 180px;
+    width: 270px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://i.ibb.co/5j5Rr6S/uss-logo-blanco-copia.png);
+}
+
+.logo-right {
+content: "";
+    position: absolute;
+    top: 18px;
+    right:   -5px;
+    height: 150px;
+    width: 240px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://i.ibb.co/TR35Jm8/logo-final.png);
+}
+
+
+.logo-uss-right {
+content: "";
+    position: absolute;
+    top: 18px;
+    right:   -5px;
+    height: 150px;
+    width: 240px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://i.ibb.co/znvkcnj/uss-logo.png);
+
+}
+
+.logo-ussb-right {
+content: "";
+    position: absolute;
+    top: 18px;
+    right:   -5px;
+    height: 150px;
+    width: 240px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://i.ibb.co/5j5Rr6S/uss-logo-blanco-copia.png);
+}
+
+.logo-blank {
+content: "";
+    position: absolute;
+    top: 18px;
+    left:   20px;
+    height: 150px;
+    width: 240px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://i.ibb.co/L1H88d5/logo-blank.png);
+}
+.logo-blank-right {
+content: "";
+    position: absolute;
+    top: 18px;
+    right:   -5px;
+    height: 150px;
+    width: 240px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://i.ibb.co/L1H88d5/logo-blank.png);
+}
