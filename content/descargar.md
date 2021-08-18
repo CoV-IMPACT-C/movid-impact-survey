@@ -39,7 +39,7 @@ title:
                 </div>
         <div class="col-md-4">
                     <div class="box-simple">
-                        <a href="../input/data/MOVID-IMPACT.RData">
+                        <a href="../input/data/MOVID-IMPACT.sav">
                             <div class="icon">
                                 <i class="fas fa-file"></i>
                             </div>
