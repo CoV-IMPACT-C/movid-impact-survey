@@ -97,7 +97,7 @@ paginate = 10
     email = "f/xeqpkdpl"
     contact_form_ajax = false
 
-    about_us = "<p>Coronavirus Impact Monitor:Policiy, Access, Control and Transectorial Consequences</p>"
+    about_us = "<p>Coronavirus Impact Monitor:Policiy, Access, Control and Transectorial Consequences  </p>"
     copyright = "Copyright (c) 2020 - 2021, ANID-COVID 960; todos los derechos reservados."
 
     # Format dates with Go's time formatting
