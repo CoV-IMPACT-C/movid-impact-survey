@@ -1,70 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://movid-coes.netlify.app/blog/</loc>
     <lastmod>2020-11-10T13:50:46+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/categories/</loc>
     <lastmod>2020-11-10T13:50:46+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/tags/cohesion-social/</loc>
     <lastmod>2020-11-10T13:50:46+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/tags/lanzamiento/</loc>
     <lastmod>2020-11-10T13:50:46+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/blog/2020/11/10/01notice/</loc>
     <lastmod>2020-11-10T13:50:46+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/</loc>
     <lastmod>2020-11-10T13:50:46+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/categories/prensa/</loc>
     <lastmod>2020-11-10T13:50:46+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/tags/</loc>
     <lastmod>2020-11-10T13:50:46+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/tags/visualizador/</loc>
     <lastmod>2020-11-10T13:50:46+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/app/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/descargar/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/doc/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/uss/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://movid-coes.netlify.app/contact/</loc>
   </url>
-  
 </urlset>
