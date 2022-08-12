@@ -140,7 +140,7 @@ paginate = 10
 [params.test]
     enable = true
     title = "MOVID-IMPACT-C"
-    subtitle = "MOVID-IMPACT-C es una encuesta representativa a nivel nacional realizada por el equipo CoV-IMPACT-C. Hasta ahora, la encuesta se ha aplicado en dos ocaciones: En noviembre de 2020 y en mayo de 2022. "
+    subtitle = "MOVID-IMPACT-C es una encuesta representativa a nivel nacional realizada por el equipo CoV-IMPACT-C. Hasta ahora, la encuesta se ha aplicado en dos ocasiones: En noviembre de 2020 y en mayo de 2022. "
 
 
 [params.features]
