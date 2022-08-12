@@ -58,7 +58,7 @@ La encuesta Movid-impact cuenta con dos versiones. La primera ronda se aplicó e
             <div class="row">
                 <div class="col-md-4">
                     <div class="box-simple">
-                <a href="../input/docs/Cuestionario_MOVID_IMPACT_2022.pdf">
+                <a href="../input/docs/Cuestionario_MOVID-IMPACT_2022.pdf">
                       <div class="icon">
                                 <i class="fas fa-book"></i>
                             </div>
@@ -69,7 +69,7 @@ La encuesta Movid-impact cuenta con dos versiones. La primera ronda se aplicó e
                 </div>
         <div class="col-md-4">
                     <div class="box-simple">
-                        <a href="../input/docs/Informe_Metodologico_MOVID-IMPACT.pdf">
+                        <a href="../input/docs/Informe_metodologico_MOVID-IMPACT_2022.pdf">
                             <div class="icon">
                                 <i class="fas fa-file"></i>
                             </div>
@@ -80,7 +80,7 @@ La encuesta Movid-impact cuenta con dos versiones. La primera ronda se aplicó e
                 </div>
         <div class="col-md-4">
                     <div class="box-simple">
-                        <a href="https://rpubs.com/valentinaandrade/movid-impact-codebook">
+                        <a href="../input/docs/Libro_codigo_MOVID-IMPACT_2022.pdf">
                             <div class="icon">
                                 <i class="fas fa-pen"></i>
                             </div>

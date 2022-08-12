@@ -30,11 +30,22 @@ En caso de que no puedas visualizar el visualizador o presentes problemas no dud
     
     <item>
       <title></title>
+      <link>https://movid-coes.netlify.app/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://movid-coes.netlify.app/contact/</guid>
+      <description>Contacto Estamos aquí para ayudarte ¿Quieres saber más sobre el Observatorio de Cohesión Social? ¿Tienes dudas sobre cómo producimos nuestra investigación y datos?
+En el siguiente formulario puedes contactarte con nosotros, intentaremos contestarte lo antes posible:</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://movid-coes.netlify.app/descargar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://movid-coes.netlify.app/descargar/</guid>
-      <description>Descargar datos Formato DTAFormato CSVEn formato SPSS¿Quieres comentar o tienes alguna duda? Puedes dejar tus comentarios y dudas sobre los datos en puedes contactarnos</description>
+      <description>Descargar datos La encuesta Movid-impact cuenta con dos versiones. La primera ronda se aplicó en noviembre de 2020, la segunda ronda se aplicó en mayo de 2022. A continuación, puede descargar los datos para ambas rondas (datos 2022 aún no cargados en la web).
+Encuesta Movid-Impact I (Noviembre 2020) Formato DTAFormato CSVEn formato SPSSEncuesta Movid-Impact II (Mayo 2022) Formato DTAFormato CSVEn formato SPSS¿Quieres comentar o tienes alguna duda?</description>
     </item>
     
     <item>
@@ -44,7 +55,8 @@ En caso de que no puedas visualizar el visualizador o presentes problemas no dud
       
       <guid>https://movid-coes.netlify.app/doc/</guid>
       <description>
-Documentos Encuesta Movid-Impact I (Noviembre 2020) CuestionarioInforme MetodológicoLibro de códigosEncuesta Movid-Impact II (Mayo 2022) CuestionarioInforme MetodológicoLibro de códigos</description>
+Documentos La encuesta Movid-impact cuenta con dos versiones. La primera ronda se aplicó en noviembre de 2020, la segunda ronda se aplicó en mayo de 2022. A continuación, puede descargar la documentación asociada a ambas rondas (datos 2022 aún no cargados en la web).
+Encuesta Movid-Impact I (Noviembre 2020) CuestionarioInforme MetodológicoLibro de códigosEncuesta Movid-Impact II (Mayo 2022) CuestionarioInforme MetodológicoLibro de códigos</description>
     </item>
     
     <item>
@@ -57,16 +69,6 @@ Documentos Encuesta Movid-Impact I (Noviembre 2020) CuestionarioInforme Metodol
 Video de presentación Slides presentación Descargar los datos Ir a la pestaña
 ¿Quieres comentar o tienes alguna duda? Puedes dejar tus comentarios y dudas sobre el visualizador en nuestro foro. De todas formas puedes contactarnos
 En caso de que no puedas visualizar el visualizador o presentes problemas no dudes en contactarnos</description>
-    </item>
-    
-    <item>
-      <title>Contacto</title>
-      <link>https://movid-coes.netlify.app/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://movid-coes.netlify.app/contact/</guid>
-      <description>Estamos aquí para ayudarte ¿Quieres saber más sobre el Observatorio de Cohesión Social? ¿Tienes dudas sobre cómo producimos nuestra investigación y datos?
-En el siguiente formulario puedes contactarte con nosotros, intentaremos contestarte lo antes posible:</description>
     </item>
     
   </channel>
