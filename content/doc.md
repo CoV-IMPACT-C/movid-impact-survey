@@ -8,7 +8,7 @@ keywords:
 
 # Documentos
 
-La encuesta Movid-impact cuenta con dos versiones. La primera ronda se aplicó en noviembre de 2020, la segunda ronda se aplicó en mayo de 2022. A continuación, puede descargar la documentación asociada a ambas rondas (datos 2022 aún no cargados en la web). 
+La encuesta Movid-impact cuenta con dos versiones. La primera ronda se aplicó en noviembre de 2020, la segunda ronda se aplicó en mayo de 2022. A continuación, puede descargar la documentación asociada a ambas rondas. 
 
 ## Encuesta Movid-Impact I (Noviembre 2020)
 
